@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Google",
+        "skills": [
+            {
+                "name": "Data Structures",
+                "questions": [
+                    {"question": "What is a stack?", "options": ["A linear data structure", "A non-linear data structure", "A collection of key-value pairs", "None of the above"], "answer": "A linear data structure"},
+                    {"question": "What is a queue?", "options": ["A linear data structure", "A non-linear data structure", "A collection of key-value pairs", "None of the above"], "answer": "A linear data structure"}
+                ]
+            },
+            {
+                "name": "Algorithms",
+                "questions": [
+                    {"question": "What is an algorithm?", "options": ["A step-by-step procedure to solve a problem", "A random sequence of steps", "A programming language", "None of the above"], "answer": "A step-by-step procedure to solve a problem"}
+                ]
+            },
+            {
+                "name": "System Design",
+                "questions": [
+                    {"question": "What is load balancing?", "options": ["The process of distributing network traffic across multiple servers", "A sorting technique", "A coding technique", "None of the above"], "answer": "The process of distributing network traffic across multiple servers"}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Amazon",
+        "skills": [
+            {
+                "name": "Problem Solving",
+                "questions": [
+                    {"question": "What is dynamic programming?", "options": ["A method for solving complex problems by breaking them down into simpler subproblems", "A method for searching data", "A type of data structure", "None of the above"], "answer": "A method for solving complex problems by breaking them down into simpler subproblems"}
+                ]
+            },
+            {
+                "name": "Distributed Systems",
+                "questions": [
+                    {"question": "What is a distributed system?", "options": ["A system where components located on networked computers communicate and coordinate their actions by passing messages", "A single computer system", "A system with centralized control", "None of the above"], "answer": "A system where components located on networked computers communicate and coordinate their actions by passing messages"}
+                ]
+            },
+            {
+                "name": "Java/Python",
+                "questions": [
+                    {"question": "What is polymorphism in Java?", "options": ["The ability of a variable, function or object to take on multiple forms", "A method of searching data", "A type of exception handling", "None of the above"], "answer": "The ability of a variable, function or object to take on multiple forms"}
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILL QUEST - Skill Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Skill Quest</h1>
+    </header>
+    <div id="accordian">
+        <ul class="show-dropdown main-navbar" id="navbar">
+            <div class="selector-active"><div class="top"></div><div class="bottom"></div></div>
+            <li>
+                <a href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+            </li>
+            <li class="active">
+                <a href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><i class="far fa-bookmark"></i>Bookmarks</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><i class="far fa-envelope"></i>Mail</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);"><i class="far fa-heart"></i>Favorite</a>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <section id="search">
+            <h2>Find Skills for Company Aptitude</h2>
+            <label for="company">Enter Company Name:</label>
+            <input type="text" id="company" name="company" placeholder="e.g., Wipro">
+            <button type="button" onclick="findSkills()">Find Skills</button>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILL QUEST - Skill Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Skill Quest</h1>
+    </header>
+    <main>
+        <section id="search">
+            <h2>Find Skills for Company Aptitude</h2>
+            <label for="company">Enter Company Name:</label>
+            <input type="text" id="company" name="company" placeholder="e.g., Wipro">
+            <button type="button" onclick="findSkills()">Find Skills</button>
+        </section>
+        <section id="skills-section" style="display: none;">
+            <div id="skills-container"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILL QUEST - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div class="container">
+                <div class="banner">
+                    <h1>SKILL QUEST</h1>
+                    <h3></h3>
+                    <h3></h3>
+                </div>
+                <div class="form">
+                    <img src="https://i.pinimg.com/236x/4d/a8/bb/4da8bb993057c69a85b9b6f2775c9df2.jpg" alt="profile" width="70">
+                    <small>Need an Account? <a href="signup.html">Sign Up</a></small>
+                    <input type="email" autocomplete placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button type="button" onclick="login()">Sign In</button>
+                    <a id="forgot">Forgot Your Password?</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
