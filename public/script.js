@@ -112,6 +112,11 @@ function displayScoreboard(score) {
     skillsContainer.appendChild(goBackButton);
 }
 */
+
+
+
+
+/*
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -161,3 +166,210 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+
+
+
+const skillsData = {
+    'Wipro': ['Java', 'SQL', 'Communication Skills', 'Problem-Solving'],
+    'Accenture': ['Python', 'Cloud Computing', 'Agile Methodologies', 'Team Collaboration'],
+    'TCS': ['C++', 'Data Analysis', 'Project Management', 'Leadership'],
+};
+
+function findSkills() {
+    const company = document.getElementById('company').value.trim();
+    const navbar = document.getElementById('navbar');
+
+    navbar.innerHTML = '<div class="selector-active"><div class="top"></div><div class="bottom"></div></div>';
+
+    if (company && skillsData[company]) {
+        skillsData[company].forEach(skill => {
+            const skillItem = document.createElement('li');
+            skillItem.innerHTML = `<a href="javascript:void(0);"><i class="far fa-dot-circle"></i>${skill}</a>`;
+            navbar.appendChild(skillItem);
+        });
+
+        const firstSkillItem = navbar.querySelector('li');
+        if (firstSkillItem) {
+            firstSkillItem.classList.add('active');
+            var activeWidthVerticalHeight = firstSkillItem.innerHeight;
+            var activeWidthVerticalWidth = firstSkillItem.innerWidth;
+            var itemPosVerticalTop = firstSkillItem.position();
+            var itemPosVerticalLeft = firstSkillItem.position();
+            $(".selector-active").css({
+                "top": itemPosVerticalTop.top + "px",
+                "left": itemPosVerticalLeft.left + "px",
+                "height": activeWidthVerticalHeight + "px",
+                "width": activeWidthVerticalWidth + "px"
+            });
+        }
+    } else {
+        alert('No skills found for the entered company.');
+    }
+
+}
+
+
+
+
+
+const skillsData = {
+    'Wipro': ['Java', 'SQL', 'Communication Skills', 'Problem-Solving'],
+    'Accenture': ['Python', 'Cloud Computing', 'Agile Methodologies', 'Team Collaboration'],
+    'TCS': ['C++', 'Data Analysis', 'Project Management', 'Leadership'],
+};
+
+// Function to handle login
+function login() {
+    const email = document.querySelector('input[type="email"]').value.trim();
+    const password = document.querySelector('input[type="password"]').value.trim();
+
+    if (email === '' || password === '') {
+        alert('Please enter both email and password.');
+        return;
+    }
+
+    // Simple validation (for demonstration purposes)
+    if (email === 'user@example.com' && password === 'password') {
+        // Redirect to search.html on successful login
+        window.location.href = 'search.html';
+    } else {
+        alert('Invalid email or password.');
+    }
+}
+
+function findSkills() {
+    const company = document.getElementById('company').value.trim();
+    const navbar = document.getElementById('navbar');
+
+    navbar.innerHTML = '<div class="selector-active"><div class="top"></div><div class="bottom"></div></div>';
+
+    if (company && skillsData[company]) {
+        skillsData[company].forEach(skill => {
+            const skillItem = document.createElement('li');
+            skillItem.innerHTML = `<a href="javascript:void(0);"><i class="far fa-dot-circle"></i>${skill}</a>`;
+            navbar.appendChild(skillItem);
+        });
+
+        const firstSkillItem = navbar.querySelector('li');
+        if (firstSkillItem) {
+            firstSkillItem.classList.add('active');
+            var activeWidthVerticalHeight = firstSkillItem.innerHeight;
+            var activeWidthVerticalWidth = firstSkillItem.innerWidth;
+            var itemPosVerticalTop = firstSkillItem.position();
+            var itemPosVerticalLeft = firstSkillItem.position();
+            $(".selector-active").css({
+                "top": itemPosVerticalTop.top + "px",
+                "left": itemPosVerticalLeft.left + "px",
+                "height": activeWidthVerticalHeight + "px",
+                "width": activeWidthVerticalWidth + "px"
+            });
+        }
+    } else {
+        alert('No skills found for the entered company.');
+    }
+}
+
+
+
+
+*/
+
+
+
+
+const skillsData = {
+    'Wipro': ['Java', 'SQL', 'Communication Skills', 'Problem-Solving'],
+    'Accenture': ['Python', 'Cloud Computing', 'Agile Methodologies', 'Team Collaboration'],
+    'TCS': ['C++', 'Data Analysis', 'Project Management', 'Leadership'],
+};
+
+// Function to handle login
+function login() {
+    const email = document.getElementById('login-email').value.trim();
+    const password = document.getElementById('login-password').value.trim();
+
+    if (email === '' || password === '') {
+        alert('Please enter both email and password.');
+        return;
+    }
+
+    // Simple validation (for demonstration purposes)
+    if (email === 'user@example.com' && password === 'password') {
+        // Redirect to search.html on successful login
+        window.location.href = 'search.html';
+    } else {
+        alert('Invalid email or password.');
+    }
+}
+
+// Function to handle sign-up
+function signup() {
+    const username = document.getElementById('username').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value.trim();
+    const confirmPassword = document.getElementById('confirmPassword').value.trim();
+
+    if (!username || !email || !password || !confirmPassword) {
+        alert('All fields are required');
+        return;
+    }
+
+    if (password !== confirmPassword) {
+        alert('Passwords do not match');
+        return;
+    }
+
+    fetch('/api/signup', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, email, password })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.message === 'User created successfully') {
+            alert('Sign up successful! You can now log in.');
+            window.location.href = 'login.html';
+        } else {
+            alert(data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Sign up failed. Please try again.');
+    });
+}
+
+// Function to find and display skills
+function findSkills() {
+    const company = document.getElementById('company').value.trim();
+    const navbar = document.getElementById('navbar');
+
+    navbar.innerHTML = '<div class="selector-active"><div class="top"></div><div class="bottom"></div></div>';
+
+    if (company && skillsData[company]) {
+        skillsData[company].forEach(skill => {
+            const skillItem = document.createElement('li');
+            skillItem.innerHTML = `<a href="javascript:void(0);"><i class="far fa-dot-circle"></i>${skill}</a>`;
+            navbar.appendChild(skillItem);
+        });
+
+        const firstSkillItem = navbar.querySelector('li');
+        if (firstSkillItem) {
+            firstSkillItem.classList.add('active');
+            const activeWidthVerticalHeight = firstSkillItem.offsetHeight;
+            const activeWidthVerticalWidth = firstSkillItem.offsetWidth;
+            const itemPosVerticalTop = firstSkillItem.offsetTop;
+            const itemPosVerticalLeft = firstSkillItem.offsetLeft;
+            document.querySelector(".selector-active").style.cssText = `
+                top: ${itemPosVerticalTop}px;
+                left: ${itemPosVerticalLeft}px;
+                height: ${activeWidthVerticalHeight}px;
+                width: ${activeWidthVerticalWidth}px;
+            `;
+        }
+    } else {
+        alert('No skills found for the entered company.');
+    }
+}
