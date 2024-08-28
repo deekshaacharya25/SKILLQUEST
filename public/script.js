@@ -269,107 +269,97 @@ function findSkills() {
     }
 }
 
-
-
-
 */
 
 
 
-
-const skillsData = {
-    'Wipro': ['Java', 'SQL', 'Communication Skills', 'Problem-Solving'],
-    'Accenture': ['Python', 'Cloud Computing', 'Agile Methodologies', 'Team Collaboration'],
-    'TCS': ['C++', 'Data Analysis', 'Project Management', 'Leadership'],
-};
-
-// Function to handle login
+// Handle the login functionality
 function login() {
-    const email = document.getElementById('login-email').value.trim();
-    const password = document.getElementById('login-password').value.trim();
+    const email = document.getElementById('login-email').value;
+    const password = document.getElementById('login-password').value;
 
-    if (email === '' || password === '') {
+    if (!email || !password) {
         alert('Please enter both email and password.');
         return;
     }
 
-    // Simple validation (for demonstration purposes)
-    if (email === 'user@example.com' && password === 'password') {
-        // Redirect to search.html on successful login
-        window.location.href = 'search.html';
-    } else {
-        alert('Invalid email or password.');
-    }
+    fetch('/api/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email, password }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.message === 'Login successful') {
+            window.location.href = 'search.html';
+        } else {
+            alert(data.message);
+        }
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
 }
 
-// Function to handle sign-up
+// Handle the signup functionality
 function signup() {
-    const username = document.getElementById('username').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const password = document.getElementById('password').value.trim();
-    const confirmPassword = document.getElementById('confirmPassword').value.trim();
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
 
     if (!username || !email || !password || !confirmPassword) {
-        alert('All fields are required');
+        alert('Please fill in all fields.');
         return;
     }
 
     if (password !== confirmPassword) {
-        alert('Passwords do not match');
+        alert('Passwords do not match.');
         return;
     }
 
     fetch('/api/signup', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username, email, password })
+        body: JSON.stringify({ username, email, password }),
     })
     .then(response => response.json())
     .then(data => {
+        alert(data.message);
         if (data.message === 'User created successfully') {
-            alert('Sign up successful! You can now log in.');
             window.location.href = 'login.html';
-        } else {
-            alert(data.message);
         }
     })
-    .catch(error => {
+    .catch((error) => {
         console.error('Error:', error);
-        alert('Sign up failed. Please try again.');
     });
 }
 
-// Function to find and display skills
-function findSkills() {
-    const company = document.getElementById('company').value.trim();
-    const navbar = document.getElementById('navbar');
+// Handle the search functionality
+function search() {
+    const companyName = document.getElementById('companyName').value;
+    const skillName = document.getElementById('skillName').value;
 
-    navbar.innerHTML = '<div class="selector-active"><div class="top"></div><div class="bottom"></div></div>';
-
-    if (company && skillsData[company]) {
-        skillsData[company].forEach(skill => {
-            const skillItem = document.createElement('li');
-            skillItem.innerHTML = `<a href="javascript:void(0);"><i class="far fa-dot-circle"></i>${skill}</a>`;
-            navbar.appendChild(skillItem);
-        });
-
-        const firstSkillItem = navbar.querySelector('li');
-        if (firstSkillItem) {
-            firstSkillItem.classList.add('active');
-            const activeWidthVerticalHeight = firstSkillItem.offsetHeight;
-            const activeWidthVerticalWidth = firstSkillItem.offsetWidth;
-            const itemPosVerticalTop = firstSkillItem.offsetTop;
-            const itemPosVerticalLeft = firstSkillItem.offsetLeft;
-            document.querySelector(".selector-active").style.cssText = `
-                top: ${itemPosVerticalTop}px;
-                left: ${itemPosVerticalLeft}px;
-                height: ${activeWidthVerticalHeight}px;
-                width: ${activeWidthVerticalWidth}px;
-            `;
-        }
-    } else {
-        alert('No skills found for the entered company.');
+    if (!companyName || !skillName) {
+        alert('Please enter both company name and skill name.');
+        return;
     }
+
+    fetch(`/api/questions?company=${encodeURIComponent(companyName)}&skill=${encodeURIComponent(skillName)}`)
+    .then(response => response.json())
+    .then(data => {
+        const resultDiv = document.getElementById('result');
+        if (data.questions.length > 0) {
+            resultDiv.innerHTML = `<h2>Questions:</h2><ul>${data.questions.map(q => `<li>${q}</li>`).join('')}</ul>`;
+        } else {
+            resultDiv.innerHTML = '<p>No questions found for the selected company and skill.</p>';
+        }
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
 }

@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKILL QUEST - Skill Search</title>
+    <title>SKILL QUEST - Search</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Skill Quest</h1>
-    </header>
-
     <main>
         <section id="search">
-            <h2>Find Skills for Company Aptitude</h2>
-            <label for="company">Enter Company Name:</label>
-            <input type="text" id="company" name="company" placeholder="e.g., Wipro">
-            <button type="button" onclick="findSkills()">Find Skills</button>
-            <div id="navbar"></div> <!-- Add this line -->
+            <div class="container">
+                <div class="banner">
+                    <h1>SKILL QUEST</h1>
+                </div>
+                <div class="form">
+                    <input type="text" id="companyName" placeholder="Enter Company Name" required>
+                    <input type="text" id="skillName" placeholder="Enter Skill Name" required>
+                    <button type="button" onclick="search()">Search</button>
+                    <div id="result"></div>
+                </div>
+            </div>
         </section>
     </main>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
