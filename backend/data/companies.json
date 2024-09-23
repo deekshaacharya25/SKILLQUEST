@@ -1,29 +1,5 @@
-[
-    {
-        "name": "Wipro",
-        "skills": [
-            { "name": "Java", "questions": ["What is polymorphism?", "Explain inheritance in Java."] },
-            { "name": "SQL", "questions": ["What is normalization?", "Explain JOIN operations in SQL."] },
-            { "name": "Communication Skills", "questions": ["Describe a time you resolved a conflict."] },
-            { "name": "Problem-Solving", "questions": ["Explain a problem you solved efficiently."] }
-        ]
-    },
-    {
-        "name": "Accenture",
-        "skills": [
-            { "name": "Python", "questions": ["Explain list comprehension in Python.", "What is a lambda function?"] },
-            { "name": "Cloud Computing", "questions": ["What is IaaS?", "Explain the difference between SaaS and PaaS."] },
-            { "name": "Agile Methodologies", "questions": ["What is Scrum?", "Explain the Agile manifesto."] },
-            { "name": "Team Collaboration", "questions": ["Describe a successful team project you were involved in."] }
-        ]
-    },
-    {
-        "name": "TCS",
-        "skills": [
-            { "name": "C++", "questions": ["Explain the concept of pointers.", "What is polymorphism in C++?"] },
-            { "name": "Data Analysis", "questions": ["How do you handle missing data in a dataset?", "Explain regression analysis."] },
-            { "name": "Project Management", "questions": ["What is the critical path method?", "Explain risk management in projects."] },
-            { "name": "Leadership", "questions": ["What is your leadership style?", "Describe a time you led a successful project."] }
-        ]
-    }
-]
+{
+    "Wipro": ["Java", "C++", "Python", "SQL"],
+    "TCS": ["Java", "C#", "Python", "JavaScript"],
+    "Infosys": ["Java", "C++", "JavaScript", "SQL"]
+}

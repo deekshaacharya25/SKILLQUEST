@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKILL QUEST - Search</title>
+    <title>SKILL QUEST - Skill Search</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Skill Quest</h1>
+    </header>
+
     <main>
         <section id="search">
-            <div class="container">
-                <div class="banner">
-                    <h1>SKILL QUEST</h1>
-                </div>
-                <div class="form">
-                    <input type="text" id="companyName" placeholder="Enter Company Name" required>
-                    <input type="text" id="skillName" placeholder="Enter Skill Name" required>
-                    <button type="button" onclick="search()">Search</button>
-                    <div id="result"></div>
-                </div>
-            </div>
+            <h2>Find Skills for Company Aptitude</h2>
+
+            <!-- Label and dropdown for dynamically populated company list -->
+            <label for="companyDropdown">Select Company Name:</label>
+            <select id="companyDropdown">
+                <option value="">Select a company</option> <!-- Placeholder option -->
+            </select>
+
+            <!-- Optionally, you can retain the manual entry input -->
+            <label for="company">Or Enter Company Name:</label>
+            <input type="text" id="company" name="company" placeholder="e.g., Wipro">
+
+            <button type="button" onclick="findSkills()">Find Skills</button>
         </section>
+
+        <section id="skills-section"></section>
+        <section id="questions-section"></section>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

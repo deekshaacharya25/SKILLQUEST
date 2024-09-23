@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "username": "deexa_07",
+    "email": "deekshapacharya25@gmail.com",
+    "password": "dee"
+  },
+  {
+    "username": "different",
+    "email": "dif@gmail.com",
+    "password": "dif"
+  }
+]

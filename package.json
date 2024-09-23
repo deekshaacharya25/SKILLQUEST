@@ -1,14 +1,12 @@
 {
   "name": "skill-quest",
   "version": "1.0.0",
-  "description": "A platform for exploring skills and related interview questions based on company profiles.",
+  "description": "A web application to find skills required for company aptitude tests",
   "main": "backend/server.js",
   "scripts": {
     "start": "node backend/server.js"
   },
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "author": "Your Name",
-  "license": "ISC"
+  }
 }
