@@ -1,0 +1,4550 @@
+{
+    "Data Structure": [
+        {
+            "question": "Which data structure uses FIFO (First In First Out) principle?",
+            "options": ["A) Stack", "B) Queue", "C) Linked List", "D) Binary Tree"],
+            "answer": "B) Queue"
+        },
+        {
+            "question": "What is the time complexity of searching an element in a balanced binary search tree?",
+            "options": ["A) O(log n)", "B) O(n)", "C) O(n log n)", "D) O(1)"],
+            "answer": "A) O(log n)"
+        },
+        {
+            "question": "In a stack, the operation to add an element is called:",
+            "options": ["A) Insert", "B) Append", "C) Push", "D) Enqueue"],
+            "answer": "C) Push"
+        },
+        {
+            "question": "Which of the following data structures is non-linear?",
+            "options": ["A) Array", "B) Stack", "C) Queue", "D) Graph"],
+            "answer": "D) Graph"
+        },
+        {
+            "question": "Which data structure is used in recursion?",
+            "options": ["A) Queue", "B) Stack", "C) Array", "D) Linked List"],
+            "answer": "B) Stack"
+        },
+        {
+            "question": "What is the best case time complexity of bubble sort?",
+            "options": ["A) O(n^2)", "B) O(n log n)", "C) O(n)", "D) O(log n)"],
+            "answer": "C) O(n)"
+        },
+        {
+            "question": "Which of the following data structures can be used to implement a priority queue?",
+            "options": ["A) Stack", "B) Array", "C) Heap", "D) Graph"],
+            "answer": "C) Heap"
+        },
+        {
+            "question": "In a linked list, the insertion of a node at the head requires how many operations?",
+            "options": ["A) 1", "B) 2", "C) 3", "D) n"],
+            "answer": "A) 1"
+        },
+        {
+            "question": "The in-order traversal of a binary search tree gives elements in:",
+            "options": ["A) Random order", "B) Sorted order", "C) Reverse order", "D) Zigzag order"],
+            "answer": "B) Sorted order"
+        },
+        {
+            "question": "What is the space complexity of an adjacency matrix for storing a graph with n vertices?",
+            "options": ["A) O(n)", "B) O(n^2)", "C) O(log n)", "D) O(n log n)"],
+            "answer": "B) O(n^2)"
+        },
+        {
+            "question": "Which of the following algorithms is used to find the shortest path in a graph?",
+            "options": ["A) Dijkstra's Algorithm", "B) Depth First Search", "C) Kruskal's Algorithm", "D) Prim's Algorithm"],
+            "answer": "A) Dijkstra's Algorithm"
+        },
+        {
+            "question": "Which data structure is used to convert an infix expression to postfix expression?",
+            "options": ["A) Queue", "B) Stack", "C) Heap", "D) Tree"],
+            "answer": "B) Stack"
+        },
+        {
+            "question": "A binary tree where every node has either 0 or 2 children is called:",
+            "options": ["A) Complete Binary Tree", "B) Full Binary Tree", "C) AVL Tree", "D) Binary Search Tree"],
+            "answer": "B) Full Binary Tree"
+        },
+        {
+            "question": "Which of the following is not a self-balancing binary search tree?",
+            "options": ["A) AVL Tree", "B) Red-Black Tree", "C) B-Tree", "D) Binary Search Tree"],
+            "answer": "D) Binary Search Tree"
+        },
+        {
+            "question": "In a max heap, the root node is:",
+            "options": ["A) The smallest element", "B) The largest element", "C) The middle element", "D) None of the above"],
+            "answer": "B) The largest element"
+        },
+        {
+            "question": "Which data structure is best for implementing an undo operation in a text editor?",
+            "options": ["A) Queue", "B) Stack", "C) Linked List", "D) Array"],
+            "answer": "B) Stack"
+        },
+        {
+            "question": "The time complexity of inserting an element at the end of a dynamic array is:",
+            "options": ["A) O(1)", "B) O(n)", "C) O(log n)", "D) O(n^2)"],
+            "answer": "A) O(1)"
+        },
+        {
+            "question": "In which data structure, elements can be added or removed from either end but not from the middle?",
+            "options": ["A) Stack", "B) Queue", "C) Deque", "D) Linked List"],
+            "answer": "C) Deque"
+        },
+        {
+            "question": "Which of the following operations is not possible in O(1) time in a singly linked list?",
+            "options": ["A) Insertion at the beginning", "B) Deletion at the beginning", "C) Insertion at the end", "D) Deletion at the end"],
+            "answer": "D) Deletion at the end"
+        },
+        {
+            "question": "Which of the following sorting algorithms is stable?",
+            "options": ["A) Quick Sort", "B) Heap Sort", "C) Merge Sort", "D) Selection Sort"],
+            "answer": "C) Merge Sort"
+        },
+        {
+            "question": "The time complexity of searching in a hash table is:",
+            "options": ["A) O(log n)", "B) O(1)", "C) O(n)", "D) O(n^2)"],
+            "answer": "B) O(1)"
+        },
+        {
+            "question": "Which traversal method is used to print the nodes of a binary tree level by level?",
+            "options": ["A) Preorder", "B) Postorder", "C) Inorder", "D) Level Order"],
+            "answer": "D) Level Order"
+        },
+        {
+            "question": "A full binary tree with n leaves contains how many internal nodes?",
+            "options": ["A) n", "B) n-1", "C) 2n", "D) 2n-1"],
+            "answer": "B) n-1"
+        },
+        {
+            "question": "Which of the following data structures can be used to solve the Tower of Hanoi problem?",
+            "options": ["A) Queue", "B) Stack", "C) Tree", "D) Graph"],
+            "answer": "B) Stack"
+        },
+        {
+            "question": "Which of the following techniques is used for memory management in linked lists?",
+            "options": ["A) Garbage Collection", "B) Reference Counting", "C) Dynamic Allocation", "D) Paging"],
+            "answer": "C) Dynamic Allocation"
+        }
+    ],
+    "Machine Learning": [
+    {
+      "question": "What is the purpose of a cost function in machine learning?",
+      "options": [
+        "A) To measure the performance of a model",
+        "B) To update model parameters",
+        "C) To reduce overfitting",
+        "D) To visualize the model"
+      ],
+      "answer": "A) To measure the performance of a model"
+    },
+    {
+      "question": "Which of the following is a supervised learning algorithm?",
+      "options": [
+        "A) K-means Clustering",
+        "B) Principal Component Analysis",
+        "C) Linear Regression",
+        "D) Apriori Algorithm"
+      ],
+      "answer": "C) Linear Regression"
+    },
+    {
+      "question": "In which scenario is overfitting likely to occur?",
+      "options": [
+        "A) Too little training data",
+        "B) Too much training data",
+        "C) A simple model",
+        "D) A low learning rate"
+      ],
+      "answer": "A) Too little training data"
+    },
+    {
+      "question": "Which of the following algorithms is used for classification tasks?",
+      "options": [
+        "A) K-Nearest Neighbors",
+        "B) K-means",
+        "C) DBSCAN",
+        "D) Apriori"
+      ],
+      "answer": "A) K-Nearest Neighbors"
+    },
+    {
+      "question": "What is a hyperparameter in machine learning?",
+      "options": [
+        "A) A parameter that is learned during training",
+        "B) A parameter that is set before the training starts",
+        "C) A parameter that adjusts dynamically during training",
+        "D) A parameter that is only used in deep learning"
+      ],
+      "answer": "B) A parameter that is set before the training starts"
+    },
+    {
+      "question": "Which technique is used to handle imbalanced datasets?",
+      "options": [
+        "A) Data normalization",
+        "B) Cross-validation",
+        "C) SMOTE (Synthetic Minority Over-sampling Technique)",
+        "D) Data augmentation"
+      ],
+      "answer": "C) SMOTE"
+    },
+    {
+      "question": "What is the primary purpose of regularization in machine learning?",
+      "options": [
+        "A) To reduce the model complexity",
+        "B) To increase the training error",
+        "C) To improve the model’s accuracy",
+        "D) To remove outliers"
+      ],
+      "answer": "A) To reduce the model complexity"
+    },
+    {
+      "question": "What does the term 'bagging' refer to in ensemble learning?",
+      "options": [
+        "A) Training several models sequentially",
+        "B) Averaging predictions from multiple models",
+        "C) Using decision trees as base models",
+        "D) Combining predictions of multiple models"
+      ],
+      "answer": "B) Averaging predictions from multiple models"
+    },
+    {
+      "question": "Which of the following is a dimensionality reduction technique?",
+      "options": [
+        "A) K-means",
+        "B) Random Forest",
+        "C) Principal Component Analysis (PCA)",
+        "D) Linear Discriminant Analysis"
+      ],
+      "answer": "C) Principal Component Analysis (PCA)"
+    },
+    {
+      "question": "Which of the following is NOT a type of machine learning?",
+      "options": [
+        "A) Supervised Learning",
+        "B) Unsupervised Learning",
+        "C) Reinforcement Learning",
+        "D) Cross-validation Learning"
+      ],
+      "answer": "D) Cross-validation Learning"
+    },
+    {
+      "question": "What is the primary objective of clustering algorithms?",
+      "options": [
+        "A) To classify data points",
+        "B) To group similar data points together",
+        "C) To predict numerical values",
+        "D) To reduce the size of a dataset"
+      ],
+      "answer": "B) To group similar data points together"
+    },
+    {
+      "question": "In gradient descent, what happens if the learning rate is too small?",
+      "options": [
+        "A) The model may overshoot the optimal solution",
+        "B) The model may converge very slowly",
+        "C) The model may never converge",
+        "D) The model may diverge"
+      ],
+      "answer": "B) The model may converge very slowly"
+    },
+    {
+      "question": "What is the key idea behind a decision tree algorithm?",
+      "options": [
+        "A) To perform feature selection",
+        "B) To split the dataset into subsets based on features",
+        "C) To assign weights to features",
+        "D) To cluster data into categories"
+      ],
+      "answer": "B) To split the dataset into subsets based on features"
+    },
+    {
+      "question": "In reinforcement learning, which of the following is a correct term?",
+      "options": [
+        "A) Action",
+        "B) Reward",
+        "C) Environment",
+        "D) All of the above"
+      ],
+      "answer": "D) All of the above"
+    },
+    {
+      "question": "Which metric is appropriate for evaluating the performance of a classification model?",
+      "options": [
+        "A) Mean Squared Error",
+        "B) Precision",
+        "C) R-squared",
+        "D) Mean Absolute Error"
+      ],
+      "answer": "B) Precision"
+    },
+    {
+      "question": "What does 'unsupervised learning' mean?",
+      "options": [
+        "A) Learning with labeled data",
+        "B) Learning without labeled data",
+        "C) Learning with feedback",
+        "D) Learning by reinforcement"
+      ],
+      "answer": "B) Learning without labeled data"
+    },
+    {
+      "question": "Which type of neural network is used for image recognition?",
+      "options": [
+        "A) Recurrent Neural Networks (RNNs)",
+        "B) Convolutional Neural Networks (CNNs)",
+        "C) Support Vector Machines (SVMs)",
+        "D) Generative Adversarial Networks (GANs)"
+      ],
+      "answer": "B) Convolutional Neural Networks (CNNs)"
+    },
+    {
+      "question": "What does L1 regularization do to model weights?",
+      "options": [
+        "A) Adds large values to weights",
+        "B) Sets some weights to zero",
+        "C) Multiplies weights by a constant",
+        "D) Adds random noise to weights"
+      ],
+      "answer": "B) Sets some weights to zero"
+    },
+    {
+      "question": "Which of the following is an ensemble learning method?",
+      "options": [
+        "A) Logistic Regression",
+        "B) Decision Trees",
+        "C) Random Forest",
+        "D) Naive Bayes"
+      ],
+      "answer": "C) Random Forest"
+    },
+    {
+      "question": "What does cross-validation help with in machine learning?",
+      "options": [
+        "A) Reducing training time",
+        "B) Preventing overfitting",
+        "C) Optimizing model weights",
+        "D) Reducing dataset size"
+      ],
+      "answer": "B) Preventing overfitting"
+    },
+    {
+      "question": "Which type of machine learning algorithm uses labeled data to learn a mapping function?",
+      "options": [
+        "A) Reinforcement learning",
+        "B) Unsupervised learning",
+        "C) Supervised learning",
+        "D) Semi-supervised learning"
+      ],
+      "answer": "C) Supervised learning"
+    },
+    {
+      "question": "What is a perceptron in neural networks?",
+      "options": [
+        "A) A feature extraction tool",
+        "B) A linear classifier",
+        "C) A decision boundary",
+        "D) A clustering algorithm"
+      ],
+      "answer": "B) A linear classifier"
+    },
+    {
+      "question": "What is a confusion matrix used for?",
+      "options": [
+        "A) To visualize classification performance",
+        "B) To reduce overfitting",
+        "C) To tune hyperparameters",
+        "D) To compare regression models"
+      ],
+      "answer": "A) To visualize classification performance"
+    },
+    {
+      "question": "In unsupervised learning, which of the following methods is used to identify patterns in data?",
+      "options": [
+        "A) Decision Trees",
+        "B) Naive Bayes",
+        "C) K-means clustering",
+        "D) Logistic Regression"
+      ],
+      "answer": "C) K-means clustering"
+    },
+    {
+      "question": "Which algorithm can handle non-linearly separable data by mapping to a higher-dimensional space?",
+      "options": [
+        "A) Support Vector Machine (SVM)",
+        "B) Linear Regression",
+        "C) K-Nearest Neighbors",
+        "D) Decision Tree"
+      ],
+      "answer": "A) Support Vector Machine (SVM)"
+    }
+  ],
+  "DistributedSystems": [
+    {
+      "question": "What is a distributed system?",
+      "options": ["A) A system where components are located on the same computer", "B) A system where components are distributed across different locations", "C) A single centralized system", "D) A system without communication"],
+      "answer": "B) A system where components are distributed across different locations"
+    },
+    {
+      "question": "What is the key challenge in distributed systems?",
+      "options": ["A) High processing power", "B) Data consistency", "C) Local memory management", "D) Single-threaded operations"],
+      "answer": "B) Data consistency"
+    },
+    {
+      "question": "In a distributed system, what does the term 'replication' refer to?",
+      "options": ["A) Running the same process multiple times", "B) Copying data across multiple nodes", "C) Sharing memory between systems", "D) Managing transactions"],
+      "answer": "B) Copying data across multiple nodes"
+    },
+    {
+      "question": "Which protocol is commonly used for communication in distributed systems?",
+      "options": ["A) HTTP", "B) TCP/IP", "C) FTP", "D) Telnet"],
+      "answer": "B) TCP/IP"
+    },
+    {
+      "question": "What is the CAP theorem in distributed systems?",
+      "options": ["A) Consistency, Availability, and Partition tolerance", "B) Capability, Availability, and Processing power", "C) Cache, Availability, and Processing power", "D) Consistency, Accuracy, and Performance"],
+      "answer": "A) Consistency, Availability, and Partition tolerance"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of distributed systems?",
+      "options": ["A) Scalability", "B) Centralization", "C) Fault tolerance", "D) Resource sharing"],
+      "answer": "B) Centralization"
+    },
+    {
+      "question": "What is the purpose of middleware in distributed systems?",
+      "options": ["A) To manage network traffic", "B) To coordinate communication between distributed components", "C) To increase CPU usage", "D) To store data on the cloud"],
+      "answer": "B) To coordinate communication between distributed components"
+    },
+    {
+      "question": "Which of the following is a form of fault tolerance in distributed systems?",
+      "options": ["A) Caching", "B) Load balancing", "C) Replication", "D) Resource allocation"],
+      "answer": "C) Replication"
+    },
+    {
+      "question": "What does 'latency' refer to in a distributed system?",
+      "options": ["A) The amount of data transferred per second", "B) The delay in communication between nodes", "C) The number of nodes in the system", "D) The failure rate of components"],
+      "answer": "B) The delay in communication between nodes"
+    },
+    {
+      "question": "Which of the following is an example of a distributed file system?",
+      "options": ["A) HDFS", "B) MongoDB", "C) Redis", "D) MySQL"],
+      "answer": "A) HDFS"
+    },
+    {
+      "question": "What is the role of a 'coordinator' in distributed algorithms like Two-Phase Commit?",
+      "options": ["A) To initiate the communication", "B) To verify data integrity", "C) To handle transaction failures", "D) To enforce concurrency"],
+      "answer": "A) To initiate the communication"
+    },
+    {
+      "question": "What is 'sharding' in distributed systems?",
+      "options": ["A) Storing the same data in multiple places", "B) Splitting data into partitions across multiple databases", "C) Creating backup copies of data", "D) Encrypting distributed data"],
+      "answer": "B) Splitting data into partitions across multiple databases"
+    },
+    {
+      "question": "What is 'gossip protocol' in distributed systems?",
+      "options": ["A) A protocol for failure detection", "B) A protocol for securing communication", "C) A protocol for updating nodes about changes", "D) A protocol for sharing passwords"],
+      "answer": "C) A protocol for updating nodes about changes"
+    },
+    {
+      "question": "What is 'load balancing' in distributed systems?",
+      "options": ["A) Distributing workload evenly across nodes", "B) Allocating CPU cycles", "C) Managing bandwidth usage", "D) Prioritizing memory allocation"],
+      "answer": "A) Distributing workload evenly across nodes"
+    },
+    {
+      "question": "What is a common failure detection mechanism in distributed systems?",
+      "options": ["A) Heartbeat messages", "B) Encryption protocols", "C) Centralized logging", "D) Time stamping"],
+      "answer": "A) Heartbeat messages"
+    },
+    {
+      "question": "In distributed computing, what does 'data partitioning' refer to?",
+      "options": ["A) Replicating data on multiple servers", "B) Dividing data into smaller segments for processing", "C) Encrypting data across different nodes", "D) Removing duplicate data"],
+      "answer": "B) Dividing data into smaller segments for processing"
+    },
+    {
+      "question": "What does 'eventual consistency' mean in a distributed system?",
+      "options": ["A) Data will be consistent immediately after an update", "B) Data will eventually become consistent over time", "C) There is no guarantee of consistency", "D) Data is consistent only during failure"],
+      "answer": "B) Data will eventually become consistent over time"
+    },
+    {
+      "question": "What is 'message passing' in distributed systems?",
+      "options": ["A) Storing messages on disk", "B) Communication between nodes using messages", "C) Processing messages locally", "D) Encrypting messages for security"],
+      "answer": "B) Communication between nodes using messages"
+    },
+    {
+      "question": "Which of the following is a distributed key-value store?",
+      "options": ["A) Redis", "B) MySQL", "C) MongoDB", "D) PostgreSQL"],
+      "answer": "A) Redis"
+    },
+    {
+      "question": "What does 'idempotence' mean in distributed systems?",
+      "options": ["A) Executing multiple tasks concurrently", "B) The ability to perform the same operation multiple times without changing the result", "C) The process of managing node failures", "D) Ensuring transaction consistency"],
+      "answer": "B) The ability to perform the same operation multiple times without changing the result"
+    },
+    {
+      "question": "What is the primary goal of fault-tolerant distributed systems?",
+      "options": ["A) High performance", "B) Reliability", "C) Low latency", "D) Scalability"],
+      "answer": "B) Reliability"
+    },
+    {
+      "question": "In a distributed system, what does 'consensus' mean?",
+      "options": ["A) Agreement between nodes on a shared state", "B) Synchronizing time across nodes", "C) Data partitioning across nodes", "D) Managing user authentication"],
+      "answer": "A) Agreement between nodes on a shared state"
+    },
+    {
+      "question": "What is the key feature of a 'peer-to-peer' distributed system?",
+      "options": ["A) Centralized control", "B) Nodes function as both clients and servers", "C) Single point of failure", "D) Low resource sharing"],
+      "answer": "B) Nodes function as both clients and servers"
+    },
+    {
+      "question": "What does the term 'scalability' refer to in distributed systems?",
+      "options": ["A) The ability to handle a growing amount of work", "B) The ability to reduce the number of nodes", "C) The ability to shut down nodes", "D) The ability to balance resources"],
+      "answer": "A) The ability to handle a growing amount of work"
+    },
+    {
+      "question": "Which of the following is an example of a distributed database system?",
+      "options": ["A) Cassandra", "B) Oracle", "C) SQLite", "D) Microsoft Access"],
+      "answer": "A) Cassandra"
+    }
+  ],
+  "Python/Java/C++": [
+    {
+      "question": "In Python, what is the result of 5 // 2?",
+      "options": ["A) 2.5", "B) 2", "C) 3", "D) 1"],
+      "answer": "B) 2"
+    },
+    {
+      "question": "In Java, which keyword is used to inherit a class?",
+      "options": ["A) extends", "B) implements", "C) inherits", "D) super"],
+      "answer": "A) extends"
+    },
+    {
+      "question": "What is the correct syntax to declare a pointer in C++?",
+      "options": ["A) int* p;", "B) pointer int p;", "C) int pointer p;", "D) int& p;"],
+      "answer": "A) int* p;"
+    },
+    {
+      "question": "Which method is used to find the length of a list in Python?",
+      "options": ["A) size()", "B) length()", "C) len()", "D) count()"],
+      "answer": "C) len()"
+    },
+    {
+      "question": "What is the return type of the hashCode() method in Java?",
+      "options": ["A) int", "B) float", "C) char", "D) long"],
+      "answer": "A) int"
+    },
+    {
+      "question": "Which of the following is used for dynamic memory allocation in C++?",
+      "options": ["A) new", "B) malloc()", "C) calloc()", "D) both A and B"],
+      "answer": "A) new"
+    },
+    {
+      "question": "In Python, what data structure does a set() represent?",
+      "options": ["A) Ordered collection", "B) Unordered collection", "C) Mutable sequence", "D) Immutable sequence"],
+      "answer": "B) Unordered collection"
+    },
+    {
+      "question": "Which of the following is NOT a valid access modifier in Java?",
+      "options": ["A) public", "B) protected", "C) private", "D) final"],
+      "answer": "D) final"
+    },
+    {
+      "question": "What is the use of the virtual keyword in C++?",
+      "options": ["A) To declare abstract classes", "B) To declare virtual functions", "C) To define pointers", "D) To create references"],
+      "answer": "B) To declare virtual functions"
+    },
+    {
+      "question": "What is the output of print(2**3) in Python?",
+      "options": ["A) 6", "B) 8", "C) 9", "D) 5"],
+      "answer": "B) 8"
+    },
+    {
+      "question": "In Java, which of the following is used to handle exceptions?",
+      "options": ["A) catch", "B) throws", "C) try-catch", "D) throw-catch"],
+      "answer": "C) try-catch"
+    },
+    {
+      "question": "In C++, what is the output of cout << 5 / 2;?",
+      "options": ["A) 2.5", "B) 2", "C) 3", "D) 5"],
+      "answer": "B) 2"
+    },
+    {
+      "question": "How do you create a tuple in Python?",
+      "options": ["A) []", "B) {}", "C) ()", "D) <>"],
+      "answer": "C) ()"
+    },
+    {
+      "question": "Which of the following is a wrapper class in Java?",
+      "options": ["A) int", "B) boolean", "C) String", "D) Integer"],
+      "answer": "D) Integer"
+    },
+    {
+      "question": "Which of the following is not a feature of C++?",
+      "options": ["A) Object-oriented programming", "B) Platform independence", "C) Operator overloading", "D) Templates"],
+      "answer": "B) Platform independence"
+    },
+    {
+      "question": "In Python, what is the correct way to start a function?",
+      "options": ["A) function func():", "B) def func():", "C) func func()", "D) func() :"],
+      "answer": "B) def func():"
+    },
+    {
+      "question": "In Java, what is the entry point for any program execution?",
+      "options": ["A) void start()", "B) void run()", "C) public static void main(String[] args)", "D) main()"],
+      "answer": "C) public static void main(String[] args)"
+    },
+    {
+      "question": "What is the correct file extension for a C++ file?",
+      "options": ["A) .cpp", "B) .cpl", "C) .cs", "D) .ccp"],
+      "answer": "A) .cpp"
+    },
+    {
+      "question": "Which of the following is immutable in Python?",
+      "options": ["A) List", "B) Dictionary", "C) Set", "D) Tuple"],
+      "answer": "D) Tuple"
+    },
+    {
+      "question": "In Java, which of these is used to allocate memory for an object?",
+      "options": ["A) alloc()", "B) malloc()", "C) new", "D) mem()"],
+      "answer": "C) new"
+    },
+    {
+      "question": "In C++, which of the following can have default arguments?",
+      "options": ["A) Constructor", "B) Destructor", "C) Both A and B", "D) Neither A nor B"],
+      "answer": "A) Constructor"
+    },
+    {
+      "question": "Which of the following statements is true about Python dictionaries?",
+      "options": ["A) They are ordered", "B) They are unordered", "C) They allow duplicate keys", "D) They are immutable"],
+      "answer": "B) They are unordered"
+    },
+    {
+      "question": "In Java, what is the size of an int?",
+      "options": ["A) 2 bytes", "B) 4 bytes", "C) 8 bytes", "D) Depends on the system"],
+      "answer": "B) 4 bytes"
+    },
+    {
+      "question": "In C++, which operator is used to access the members of a class using a pointer?",
+      "options": ["A) .", "B) *", "C) ->", "D) &"],
+      "answer": "C) ->"
+    },
+    {
+      "question": "In Python, how do you check the type of a variable x?",
+      "options": ["A) type(x)", "B) x.type()", "C) typeof(x)", "D) x.getType()"],
+      "answer": "A) type(x)"
+    }
+  ],
+  "System Design": [
+    {
+      "question": "What is horizontal scaling?",
+      "options": ["A) Adding more CPUs to an existing machine", "B) Adding more machines to handle load", "C) Reducing CPU usage", "D) Partitioning data"],
+      "answer": "B) Adding more machines to handle load"
+    },
+    {
+      "question": "What does CAP theorem stand for?",
+      "options": ["A) Consistency, Availability, Partition Tolerance", "B) Communication, Access, Partitioning", "C) Consistency, Accuracy, Performance", "D) Capacity, Availability, Partitioning"],
+      "answer": "A) Consistency, Availability, Partition Tolerance"
+    },
+    {
+      "question": "What is a load balancer?",
+      "options": ["A) A tool to manage memory", "B) A system to distribute incoming traffic", "C) A system to cache data", "D) A tool to handle backups"],
+      "answer": "B) A system to distribute incoming traffic"
+    },
+    {
+      "question": "Which of the following is NOT a distributed database?",
+      "options": ["A) Cassandra", "B) DynamoDB", "C) MySQL", "D) MongoDB"],
+      "answer": "C) MySQL"
+    },
+    {
+      "question": "What is the purpose of caching in a system?",
+      "options": ["A) To store user data", "B) To reduce database load", "C) To encrypt information", "D) To increase storage space"],
+      "answer": "B) To reduce database load"
+    },
+    {
+      "question": "What is the primary role of an API gateway in microservices architecture?",
+      "options": ["A) Data storage", "B) Security", "C) Service discovery", "D) Request routing"],
+      "answer": "D) Request routing"
+    },
+    {
+      "question": "What is the best way to handle sudden traffic spikes?",
+      "options": ["A) Vertical scaling", "B) Sharding", "C) Horizontal scaling", "D) Database indexing"],
+      "answer": "C) Horizontal scaling"
+    },
+    {
+      "question": "What does 'fault tolerance' in system design refer to?",
+      "options": ["A) System's ability to handle failures", "B) System's ability to recover data", "C) Reducing system cost", "D) Enhancing performance"],
+      "answer": "A) System's ability to handle failures"
+    },
+    {
+      "question": "What is a CDN (Content Delivery Network) used for?",
+      "options": ["A) Store backups", "B) Cache content closer to users", "C) Improve database efficiency", "D) Encrypt data"],
+      "answer": "B) Cache content closer to users"
+    },
+    {
+      "question": "In a distributed system, what is 'replication'?",
+      "options": ["A) Distributing data across nodes", "B) Duplicating data across servers", "C) Sharding data into pieces", "D) Compressing data for storage"],
+      "answer": "B) Duplicating data across servers"
+    },
+    {
+      "question": "What is a 'message queue' used for in a system?",
+      "options": ["A) For asynchronous communication", "B) For real-time chat applications", "C) For file storage", "D) For logging user data"],
+      "answer": "A) For asynchronous communication"
+    },
+    {
+      "question": "What is a monolithic architecture?",
+      "options": ["A) A system where all components are tightly integrated", "B) A decentralized system", "C) A microservices architecture", "D) A system with many layers"],
+      "answer": "A) A system where all components are tightly integrated"
+    },
+    {
+      "question": "Which type of database is best suited for large-scale, distributed systems?",
+      "options": ["A) NoSQL", "B) SQL", "C) Relational database", "D) Flat file"],
+      "answer": "A) NoSQL"
+    },
+    {
+      "question": "What is a 'heartbeat' signal used for in system design?",
+      "options": ["A) To synchronize clocks", "B) To check if nodes are alive", "C) To send notifications", "D) To encrypt data"],
+      "answer": "B) To check if nodes are alive"
+    },
+    {
+      "question": "What is the best design approach for read-heavy systems?",
+      "options": ["A) Use multiple databases", "B) Implement caching", "C) Sharding", "D) Load balancing"],
+      "answer": "B) Implement caching"
+    },
+    {
+      "question": "What is 'autoscaling' in system design?",
+      "options": ["A) Manually adjusting the number of servers", "B) Automatically increasing or decreasing resources based on load", "C) Creating virtual servers", "D) Reducing the number of services in a system"],
+      "answer": "B) Automatically increasing or decreasing resources based on load"
+    },
+    {
+      "question": "Which of the following is NOT a principle of microservices architecture?",
+      "options": ["A) Independent deployment", "B) Single database for all services", "C) Loose coupling", "D) Services communication over lightweight protocols"],
+      "answer": "B) Single database for all services"
+    },
+    {
+      "question": "What is 'sharding' in system design?",
+      "options": ["A) Encrypting data across different nodes", "B) Splitting data across multiple databases", "C) Creating backup copies of data", "D) Storing the same data in multiple places"],
+      "answer": "B) Splitting data across multiple databases"
+    },
+    {
+      "question": "What is 'latency' in system design?",
+      "options": ["A) Amount of data transferred per second", "B) Delay between request and response", "C) Number of nodes in the system", "D) Failure rate of components"],
+      "answer": "B) Delay between request and response"
+    },
+    {
+      "question": "What is 'eventual consistency'?",
+      "options": ["A) Data is always consistent across systems", "B) Data will eventually become consistent over time", "C) Data is inconsistent permanently", "D) Data is consistent only during failures"],
+      "answer": "B) Data will eventually become consistent over time"
+    },
+    {
+      "question": "In a distributed system, what is 'gossip protocol'?",
+      "options": ["A) For encrypting communication", "B) For failure detection and spreading information", "C) For user authentication", "D) For data partitioning"],
+      "answer": "B) For failure detection and spreading information"
+    },
+    {
+      "question": "What is a key principle in RESTful system design?",
+      "options": ["A) Stateful interactions", "B) Stateless interactions", "C) Use of proprietary protocols", "D) Coupling services"],
+      "answer": "B) Stateless interactions"
+    },
+    {
+      "question": "What is 'write amplification'?",
+      "options": ["A) Writing large amounts of data in one operation", "B) A phenomenon where more writes are performed than necessary", "C) Reducing write operations to save bandwidth", "D) A mechanism for faster writes"],
+      "answer": "B) A phenomenon where more writes are performed than necessary"
+    },
+    {
+      "question": "What is a 'rate limiter'?",
+      "options": ["A) A system that limits the amount of data stored", "B) A system that limits the number of requests a client can make", "C) A tool for speeding up processing", "D) A mechanism to cache requests"],
+      "answer": "B) A system that limits the number of requests a client can make"
+    },
+    {
+      "question": "What is the role of a 'scheduler' in a distributed system?",
+      "options": ["A) To distribute tasks across multiple nodes", "B) To execute processes in a sequence", "C) To handle data partitioning", "D) To ensure data consistency"],
+      "answer": "A) To distribute tasks across multiple nodes"
+    }
+  ],
+  "Cloud Computing": [
+    {
+      "question": "What does EC2 stand for in AWS?",
+      "options": [
+        "A) Elastic Cloud Computing",
+        "B) Enhanced Cloud Computing",
+        "C) Efficient Cloud Computing",
+        "D) Elastic Compute Cloud"
+      ],
+      "answer": "D) Elastic Compute Cloud"
+    },
+    {
+      "question": "What is Amazon S3 used for?",
+      "options": [
+        "A) Running virtual servers",
+        "B) Storing data",
+        "C) Managing databases",
+        "D) Caching resources"
+      ],
+      "answer": "B) Storing data"
+    },
+    {
+      "question": "What does VPC stand for in AWS?",
+      "options": [
+        "A) Virtual Public Cloud",
+        "B) Virtual Private Cloud",
+        "C) Virtual Physical Cloud",
+        "D) Virtual Protected Cloud"
+      ],
+      "answer": "B) Virtual Private Cloud"
+    },
+    {
+      "question": "Which of the following is used for database services in AWS?",
+      "options": [
+        "A) S3",
+        "B) RDS",
+        "C) Lambda",
+        "D) CloudWatch"
+      ],
+      "answer": "B) RDS"
+    },
+    {
+      "question": "What is the primary purpose of AWS Lambda?",
+      "options": [
+        "A) To run code without provisioning or managing servers",
+        "B) To store large amounts of data",
+        "C) To monitor applications",
+        "D) To provide content delivery"
+      ],
+      "answer": "A) To run code without provisioning or managing servers"
+    },
+    {
+      "question": "Which AWS service is used for content delivery?",
+      "options": [
+        "A) CloudFront",
+        "B) S3",
+        "C) EC2",
+        "D) CloudTrail"
+      ],
+      "answer": "A) CloudFront"
+    },
+    {
+      "question": "In AWS, what is the purpose of Elastic Load Balancer (ELB)?",
+      "options": [
+        "A) To monitor traffic",
+        "B) To distribute incoming traffic",
+        "C) To provide additional compute power",
+        "D) To secure data"
+      ],
+      "answer": "B) To distribute incoming traffic"
+    },
+    {
+      "question": "What is IAM in AWS?",
+      "options": [
+        "A) Identity and Access Management",
+        "B) Infrastructure Access Module",
+        "C) Instance Authorization Manager",
+        "D) Internal Access Mechanism"
+      ],
+      "answer": "A) Identity and Access Management"
+    },
+    {
+      "question": "Which AWS service is used for relational databases?",
+      "options": [
+        "A) DynamoDB",
+        "B) Redshift",
+        "C) RDS",
+        "D) S3"
+      ],
+      "answer": "C) RDS"
+    },
+    {
+      "question": "What is the primary use of AWS CloudFormation?",
+      "options": [
+        "A) To manage database instances",
+        "B) To automate resource provisioning",
+        "C) To monitor system logs",
+        "D) To secure network communications"
+      ],
+      "answer": "B) To automate resource provisioning"
+    },
+    {
+      "question": "What is the purpose of Amazon CloudWatch?",
+      "options": [
+        "A) Automating resource provisioning",
+        "B) Monitoring AWS cloud resources",
+        "C) Data storage",
+        "D) Content delivery"
+      ],
+      "answer": "B) Monitoring AWS cloud resources"
+    },
+    {
+      "question": "What is the function of AWS Route 53?",
+      "options": [
+        "A) Domain Name System (DNS) service",
+        "B) Data backup",
+        "C) Load balancing",
+        "D) Firewall management"
+      ],
+      "answer": "A) Domain Name System (DNS) service"
+    },
+    {
+      "question": "What is Auto Scaling in AWS?",
+      "options": [
+        "A) Manually increasing instance size",
+        "B) Automatically adjusting compute resources based on demand",
+        "C) Horizontal scaling of databases",
+        "D) Scheduling maintenance windows"
+      ],
+      "answer": "B) Automatically adjusting compute resources based on demand"
+    },
+    {
+      "question": "What is AWS Elastic Beanstalk used for?",
+      "options": [
+        "A) Building mobile applications",
+        "B) Running code serverlessly",
+        "C) Automating application deployment and scaling",
+        "D) Managing database backups"
+      ],
+      "answer": "C) Automating application deployment and scaling"
+    },
+    {
+      "question": "Which AWS service is used for data warehousing?",
+      "options": [
+        "A) RDS",
+        "B) DynamoDB",
+        "C) Redshift",
+        "D) S3"
+      ],
+      "answer": "C) Redshift"
+    },
+    {
+      "question": "What does AWS CloudTrail provide?",
+      "options": [
+        "A) Monitoring and troubleshooting services",
+        "B) Governance and auditing of AWS accounts",
+        "C) Enhanced security for data storage",
+        "D) Resource provisioning automation"
+      ],
+      "answer": "B) Governance and auditing of AWS accounts"
+    },
+    {
+      "question": "Which of the following is a serverless compute service in AWS?",
+      "options": [
+        "A) EC2",
+        "B) Lambda",
+        "C) RDS",
+        "D) CloudFront"
+      ],
+      "answer": "B) Lambda"
+    },
+    {
+      "question": "What is AWS Glacier used for?",
+      "options": [
+        "A) Real-time analytics",
+        "B) Data archiving",
+        "C) Secure key management",
+        "D) Domain name resolution"
+      ],
+      "answer": "B) Data archiving"
+    },
+    {
+      "question": "What is an EBS volume in AWS?",
+      "options": [
+        "A) Temporary storage for instances",
+        "B) A persistent block storage service",
+        "C) Elastic load balancing service",
+        "D) Database hosting service"
+      ],
+      "answer": "B) A persistent block storage service"
+    },
+    {
+      "question": "Which AWS service is best for real-time data streaming?",
+      "options": [
+        "A) CloudFront",
+        "B) Kinesis",
+        "C) DynamoDB",
+        "D) S3"
+      ],
+      "answer": "B) Kinesis"
+    },
+    {
+      "question": "What does AWS S3 offer with respect to data availability?",
+      "options": [
+        "A) 99.99%",
+        "B) 99.999999999%",
+        "C) 100%",
+        "D) 90%"
+      ],
+      "answer": "B) 99.999999999%"
+    },
+    {
+      "question": "Which AWS service allows scaling without managing server instances?",
+      "options": [
+        "A) EC2",
+        "B) Elastic Beanstalk",
+        "C) Lambda",
+        "D) VPC"
+      ],
+      "answer": "C) Lambda"
+    },
+    {
+      "question": "What does Amazon RDS stand for?",
+      "options": [
+        "A) Relational Database Service",
+        "B) Real-time Data Storage",
+        "C) Remote Data System",
+        "D) Replicated Database Server"
+      ],
+      "answer": "A) Relational Database Service"
+    },
+    {
+      "question": "Which of the following is a fully managed NoSQL database in AWS?",
+      "options": [
+        "A) DynamoDB",
+        "B) Aurora",
+        "C) MySQL",
+        "D) PostgreSQL"
+      ],
+      "answer": "A) DynamoDB"
+    },
+    {
+      "question": "Which AWS tool helps in securing your applications by managing secrets like database credentials?",
+      "options": [
+        "A) CloudFormation",
+        "B) IAM",
+        "C) Secrets Manager",
+        "D) Lambda"
+      ],
+      "answer": "C) Secrets Manager"
+    }
+  ],
+  "Java": [
+    {
+      "question": "Which of the following is NOT a feature of Java?",
+      "options": [
+        "A) Object-oriented",
+        "B) Platform independent",
+        "C) Interpreted",
+        "D) Low-level programming"
+      ],
+      "answer": "D) Low-level programming"
+    },
+    {
+      "question": "Which of the following is the correct way to declare a constant in Java?",
+      "options": [
+        "A) const int VALUE = 10;",
+        "B) final int VALUE = 10;",
+        "C) constant int VALUE = 10;",
+        "D) static int VALUE = 10;"
+      ],
+      "answer": "B) final int VALUE = 10;"
+    },
+    {
+      "question": "What is the size of an int variable in Java?",
+      "options": [
+        "A) 16 bits",
+        "B) 32 bits",
+        "C) 64 bits",
+        "D) 8 bits"
+      ],
+      "answer": "B) 32 bits"
+    },
+    {
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": [
+        "A) true",
+        "B) false",
+        "C) 0",
+        "D) 1"
+      ],
+      "answer": "B) false"
+    },
+    {
+      "question": "Which of the following is used to create an object in Java?",
+      "options": [
+        "A) constructor",
+        "B) method",
+        "C) function",
+        "D) variable"
+      ],
+      "answer": "A) constructor"
+    },
+    {
+      "question": "What is method overloading in Java?",
+      "options": [
+        "A) Methods with the same name but different return types",
+        "B) Methods with the same name but different parameters",
+        "C) Methods with different names but same functionality",
+        "D) Using multiple methods within a class"
+      ],
+      "answer": "B) Methods with the same name but different parameters"
+    },
+    {
+      "question": "Which of the following is NOT a keyword in Java?",
+      "options": [
+        "A) class",
+        "B) try",
+        "C) goto",
+        "D) static"
+      ],
+      "answer": "C) goto"
+    },
+    {
+      "question": "What does the 'static' keyword indicate in Java?",
+      "options": [
+        "A) The method can only be called from within the same class",
+        "B) The method or variable belongs to the class, not an instance",
+        "C) The method cannot be changed",
+        "D) The variable is unmodifiable"
+      ],
+      "answer": "B) The method or variable belongs to the class, not an instance"
+    },
+    {
+      "question": "In Java, inheritance is achieved using the keyword:",
+      "options": [
+        "A) implements",
+        "B) extends",
+        "C) inherits",
+        "D) uses"
+      ],
+      "answer": "B) extends"
+    },
+    {
+      "question": "Which package contains the root classes in Java?",
+      "options": [
+        "A) java.base",
+        "B) java.root",
+        "C) java.util",
+        "D) java.lang"
+      ],
+      "answer": "D) java.lang"
+    },
+    {
+      "question": "What does JVM stand for?",
+      "options": [
+        "A) Java Visual Machine",
+        "B) Java Virtual Machine",
+        "C) Java Variable Manager",
+        "D) Java Version Manager"
+      ],
+      "answer": "B) Java Virtual Machine"
+    },
+    {
+      "question": "Which of these data types is used for decimal numbers in Java?",
+      "options": [
+        "A) float",
+        "B) char",
+        "C) byte",
+        "D) long"
+      ],
+      "answer": "A) float"
+    },
+    {
+      "question": "How is a multi-line comment started in Java?",
+      "options": [
+        "A) /*",
+        "B) //",
+        "C) <!--",
+        "D) ###"
+      ],
+      "answer": "A) /*"
+    },
+    {
+      "question": "Which of the following is the correct way to handle exceptions in Java?",
+      "options": [
+        "A) throw",
+        "B) try-catch",
+        "C) catch-throw",
+        "D) final"
+      ],
+      "answer": "B) try-catch"
+    },
+    {
+      "question": "What is the default value of a reference type variable?",
+      "options": [
+        "A) 0",
+        "B) null",
+        "C) true",
+        "D) false"
+      ],
+      "answer": "B) null"
+    },
+    {
+      "question": "What does the keyword 'super' refer to?",
+      "options": [
+        "A) The parent class",
+        "B) The child class",
+        "C) A static method",
+        "D) A final class"
+      ],
+      "answer": "A) The parent class"
+    },
+    {
+      "question": "What is the output of the following code snippet? System.out.println(5 + 3 + 'Hello');",
+      "options": [
+        "A) 8Hello",
+        "B) 53Hello",
+        "C) Hello8",
+        "D) Error"
+      ],
+      "answer": "A) 8Hello"
+    },
+    {
+      "question": "What does the keyword 'this' represent in Java?",
+      "options": [
+        "A) The current object",
+        "B) The parent class",
+        "C) The static method",
+        "D) A local variable"
+      ],
+      "answer": "A) The current object"
+    },
+    {
+      "question": "Which method is called when an object is garbage collected?",
+      "options": [
+        "A) finalize()",
+        "B) delete()",
+        "C) remove()",
+        "D) clear()"
+      ],
+      "answer": "A) finalize()"
+    },
+    {
+      "question": "What is the default value of a local variable in Java?",
+      "options": [
+        "A) 0",
+        "B) null",
+        "C) false",
+        "D) Compiler error (not initialized)"
+      ],
+      "answer": "D) Compiler error (not initialized)"
+    },
+    {
+      "question": "Which loop is best suited when the number of iterations is known?",
+      "options": [
+        "A) while loop",
+        "B) for loop",
+        "C) do-while loop",
+        "D) infinite loop"
+      ],
+      "answer": "B) for loop"
+    },
+    {
+      "question": "What is the purpose of the 'final' keyword in Java?",
+      "options": [
+        "A) To prevent modification of variables, methods, or classes",
+        "B) To handle exceptions",
+        "C) To terminate loops",
+        "D) To prevent memory leaks"
+      ],
+      "answer": "A) To prevent modification of variables, methods, or classes"
+    },
+    {
+      "question": "In which part of memory are objects stored?",
+      "options": [
+        "A) Heap",
+        "B) Stack",
+        "C) Code",
+        "D) Static"
+      ],
+      "answer": "A) Heap"
+    },
+    {
+      "question": "What does the 'new' keyword do in Java?",
+      "options": [
+        "A) Allocates memory for a new object",
+        "B) Creates a static method",
+        "C) Terminates the application",
+        "D) Removes an object from memory"
+      ],
+      "answer": "A) Allocates memory for a new object"
+    },
+    {
+      "question": "What is the purpose of encapsulation in Java?",
+      "options": [
+        "A) To hide the internal details of an object",
+        "B) To improve performance",
+        "C) To provide multiple inheritance",
+        "D) To make code readable"
+      ],
+      "answer": "A) To hide the internal details of an object"
+    }
+  ],
+  "Databases": [
+    {
+      "question": "Which of the following is a type of database model?",
+      "options": [
+        "A) Relational",
+        "B) Hierarchical",
+        "C) Network",
+        "D) All of the above"
+      ],
+      "answer": "D) All of the above"
+    },
+    {
+      "question": "What is SQL used for in databases?",
+      "options": [
+        "A) Defining data structures",
+        "B) Manipulating data",
+        "C) Querying data",
+        "D) All of the above"
+      ],
+      "answer": "D) All of the above"
+    },
+    {
+      "question": "Which of the following is a primary key?",
+      "options": [
+        "A) A unique identifier for a record in a table",
+        "B) A foreign key",
+        "C) A duplicate field in a table",
+        "D) A key used for indexing"
+      ],
+      "answer": "A) A unique identifier for a record in a table"
+    },
+    {
+      "question": "What is a foreign key in relational databases?",
+      "options": [
+        "A) A key that links two tables together",
+        "B) A key that enforces data integrity",
+        "C) A key that is unique in the table",
+        "D) A key that can store duplicate values"
+      ],
+      "answer": "A) A key that links two tables together"
+    },
+    {
+      "question": "Which of the following SQL commands is used to retrieve data from a database?",
+      "options": [
+        "A) INSERT",
+        "B) UPDATE",
+        "C) SELECT",
+        "D) DELETE"
+      ],
+      "answer": "C) SELECT"
+    },
+    {
+      "question": "What does the acronym ACID stand for in database transactions?",
+      "options": [
+        "A) Accuracy, Consistency, Isolation, Durability",
+        "B) Atomicity, Consistency, Isolation, Durability",
+        "C) Availability, Capacity, Isolation, Durability",
+        "D) Access, Concurrency, Integrity, Durability"
+      ],
+      "answer": "B) Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+      "question": "What is normalization in databases?",
+      "options": [
+        "A) The process of organizing data to avoid redundancy",
+        "B) A method of indexing data",
+        "C) The process of backing up data",
+        "D) A method of encrypting data"
+      ],
+      "answer": "A) The process of organizing data to avoid redundancy"
+    },
+    {
+      "question": "In which normal form is a table when it has no repeating groups or arrays?",
+      "options": [
+        "A) First Normal Form (1NF)",
+        "B) Second Normal Form (2NF)",
+        "C) Third Normal Form (3NF)",
+        "D) Boyce-Codd Normal Form (BCNF)"
+      ],
+      "answer": "A) First Normal Form (1NF)"
+    },
+    {
+      "question": "Which of the following SQL clauses is used to filter records?",
+      "options": [
+        "A) WHERE",
+        "B) GROUP BY",
+        "C) ORDER BY",
+        "D) HAVING"
+      ],
+      "answer": "A) WHERE"
+    },
+    {
+      "question": "What is the purpose of the JOIN operation in SQL?",
+      "options": [
+        "A) To retrieve data from multiple tables based on a related column",
+        "B) To delete records from multiple tables",
+        "C) To modify multiple columns simultaneously",
+        "D) To group records based on similar values"
+      ],
+      "answer": "A) To retrieve data from multiple tables based on a related column"
+    },
+    {
+      "question": "Which type of join returns all rows from the left table and matching rows from the right table?",
+      "options": [
+        "A) INNER JOIN",
+        "B) LEFT JOIN",
+        "C) RIGHT JOIN",
+        "D) FULL JOIN"
+      ],
+      "answer": "B) LEFT JOIN"
+    },
+    {
+      "question": "What is the result of an INNER JOIN if no match is found in the joined tables?",
+      "options": [
+        "A) Null values in unmatched rows",
+        "B) Only matched rows are returned",
+        "C) All rows from both tables are returned",
+        "D) None of the above"
+      ],
+      "answer": "B) Only matched rows are returned"
+    },
+    {
+      "question": "Which SQL keyword is used to eliminate duplicate rows in the result set?",
+      "options": [
+        "A) DISTINCT",
+        "B) UNIQUE",
+        "C) GROUP BY",
+        "D) COUNT"
+      ],
+      "answer": "A) DISTINCT"
+    },
+    {
+      "question": "Which of the following is true for a clustered index?",
+      "options": [
+        "A) It defines the physical order of data in a table",
+        "B) It is used for non-unique records only",
+        "C) It always has unique values",
+        "D) It cannot be used with primary keys"
+      ],
+      "answer": "A) It defines the physical order of data in a table"
+    },
+    {
+      "question": "What is a view in a database?",
+      "options": [
+        "A) A virtual table based on the result of an SQL query",
+        "B) A physical table stored in the database",
+        "C) A tool used for data backup",
+        "D) A method of encrypting tables"
+      ],
+      "answer": "A) A virtual table based on the result of an SQL query"
+    },
+    {
+      "question": "Which SQL statement is used to create a new table?",
+      "options": [
+        "A) CREATE TABLE",
+        "B) ADD TABLE",
+        "C) INSERT TABLE",
+        "D) NEW TABLE"
+      ],
+      "answer": "A) CREATE TABLE"
+    },
+    {
+      "question": "Which SQL keyword is used to update existing data in a table?",
+      "options": [
+        "A) MODIFY",
+        "B) UPDATE",
+        "C) CHANGE",
+        "D) REVISE"
+      ],
+      "answer": "B) UPDATE"
+    },
+    {
+      "question": "Which function is used to count the number of records in an SQL query?",
+      "options": [
+        "A) SUM()",
+        "B) AVG()",
+        "C) COUNT()",
+        "D) TOTAL()"
+      ],
+      "answer": "C) COUNT()"
+    },
+    {
+      "question": "What is the function of a trigger in a database?",
+      "options": [
+        "A) To automatically execute a stored procedure in response to certain events",
+        "B) To manually update data",
+        "C) To create a backup",
+        "D) To delete unwanted records"
+      ],
+      "answer": "A) To automatically execute a stored procedure in response to certain events"
+    },
+    {
+      "question": "Which of the following is an aggregate function in SQL?",
+      "options": [
+        "A) MAX()",
+        "B) GROUP BY",
+        "C) WHERE",
+        "D) JOIN"
+      ],
+      "answer": "A) MAX()"
+    },
+    {
+      "question": "What is a stored procedure in a database?",
+      "options": [
+        "A) A precompiled collection of SQL statements",
+        "B) A temporary table stored in memory",
+        "C) A data encryption method",
+        "D) A physical view of the database schema"
+      ],
+      "answer": "A) A precompiled collection of SQL statements"
+    },
+    {
+      "question": "Which database index improves the performance of queries?",
+      "options": [
+        "A) Full-text index",
+        "B) Clustered index",
+        "C) Non-clustered index",
+        "D) All of the above"
+      ],
+      "answer": "D) All of the above"
+    },
+    {
+      "question": "What does the term 'referential integrity' refer to in a database?",
+      "options": [
+        "A) Ensuring that foreign key values match primary key values in related tables",
+        "B) Storing only unique values in a table",
+        "C) Using indexed columns in a query",
+        "D) Backing up data automatically"
+      ],
+      "answer": "A) Ensuring that foreign key values match primary key values in related tables"
+    },
+    {
+      "question": "What is the purpose of the ROLLBACK statement in SQL?",
+      "options": [
+        "A) To undo changes made by a transaction",
+        "B) To commit changes made by a transaction",
+        "C) To lock a table during a transaction",
+        "D) To create a new database"
+      ],
+      "answer": "A) To undo changes made by a transaction"
+    },
+    {
+      "question": "What is the main advantage of indexing a database?",
+      "options": [
+        "A) Faster retrieval of records",
+        "B) Reducing storage space",
+        "C) Preventing data corruption",
+        "D) Simplifying queries"
+      ],
+      "answer": "A) Faster retrieval of records"
+    }
+  ], 
+  "Object-Oriented Programming": [
+    {
+      "question": "Which of the following best describes inheritance?",
+      "options": [
+        "A) A mechanism for sharing code between unrelated classes",
+        "B) A way to hide data",
+        "C) A way to create new classes based on existing ones",
+        "D) A method for encapsulating functions"
+      ],
+      "answer": "C) A way to create new classes based on existing ones"
+    },
+    {
+      "question": "What is encapsulation in OOP?",
+      "options": [
+        "A) The process of extending classes",
+        "B) The bundling of data with methods that operate on that data",
+        "C) The ability to treat objects of different classes the same way",
+        "D) The practice of sharing code between classes"
+      ],
+      "answer": "B) The bundling of data with methods that operate on that data"
+    },
+    {
+      "question": "What does polymorphism allow in OOP?",
+      "options": [
+        "A) The ability to create multiple instances of a class",
+        "B) The ability to call the same method on different objects",
+        "C) The ability to inherit multiple classes",
+        "D) The ability to hide implementation details"
+      ],
+      "answer": "B) The ability to call the same method on different objects"
+    },
+    {
+      "question": "What keyword is used to inherit a class in Java?",
+      "options": [
+        "A) inherits",
+        "B) implements",
+        "C) extends",
+        "D) uses"
+      ],
+      "answer": "C) extends"
+    },
+    {
+      "question": "What is method overriding?",
+      "options": [
+        "A) Creating a new method in a derived class with the same name and parameters as a method in the base class",
+        "B) Creating multiple methods with the same name but different parameters",
+        "C) Hiding a method from a base class",
+        "D) Defining a method that cannot be called"
+      ],
+      "answer": "A) Creating a new method in a derived class with the same name and parameters as a method in the base class"
+    },
+    {
+      "question": "In which of the following scenarios would you use an abstract class?",
+      "options": [
+        "A) When you want to create a class that can be instantiated",
+        "B) When you want to define common behavior for derived classes without providing a complete implementation",
+        "C) When you want to create a utility class",
+        "D) When you want to implement an interface"
+      ],
+      "answer": "B) When you want to define common behavior for derived classes without providing a complete implementation"
+    },
+    {
+      "question": "What is the primary benefit of using interfaces in OOP?",
+      "options": [
+        "A) They provide implementation details",
+        "B) They allow multiple inheritance",
+        "C) They can contain method definitions with bodies",
+        "D) They can be used to achieve polymorphism"
+      ],
+      "answer": "D) They can be used to achieve polymorphism"
+    },
+    {
+      "question": "Which of the following statements about constructors is true?",
+      "options": [
+        "A) They can have a return type",
+        "B) They are called when an object is destroyed",
+        "C) They can be overloaded",
+        "D) They are called explicitly by the user"
+      ],
+      "answer": "C) They can be overloaded"
+    },
+    {
+      "question": "What is the purpose of the super keyword in Java?",
+      "options": [
+        "A) To call a method from a parent class",
+        "B) To access the current object's methods",
+        "C) To create a new instance of a class",
+        "D) To invoke a static method"
+      ],
+      "answer": "A) To call a method from a parent class"
+    },
+    {
+      "question": "Which of the following is true about static variables?",
+      "options": [
+        "A) They are unique to each instance of a class",
+        "B) They can be accessed without creating an object of the class",
+        "C) They can be overridden in derived classes",
+        "D) They are only accessible within the class they are declared in"
+      ],
+      "answer": "B) They can be accessed without creating an object of the class"
+    },
+    {
+      "question": "What does the term 'constructor chaining' refer to?",
+      "options": [
+        "A) Calling one constructor from another constructor within the same class",
+        "B) Creating multiple instances of a class",
+        "C) Inheriting constructors from a base class",
+        "D) Calling multiple methods in succession"
+      ],
+      "answer": "A) Calling one constructor from another constructor within the same class"
+    },
+    {
+      "question": "Which of the following is NOT a principle of OOP?",
+      "options": [
+        "A) Inheritance",
+        "B) Polymorphism",
+        "C) Encapsulation",
+        "D) Compilation"
+      ],
+      "answer": "D) Compilation"
+    },
+    {
+      "question": "What is the function of the final keyword in the context of a class?",
+      "options": [
+        "A) It allows the class to be subclassed",
+        "B) It prevents the class from being subclassed",
+        "C) It restricts access to the class",
+        "D) It defines abstract methods"
+      ],
+      "answer": "B) It prevents the class from being subclassed"
+    },
+    {
+      "question": "Which of the following describes a concrete class?",
+      "options": [
+        "A) A class that contains only abstract methods",
+        "B) A class that can be instantiated",
+        "C) A class with no methods",
+        "D) A class that only serves as a base class"
+      ],
+      "answer": "B) A class that can be instantiated"
+    },
+    {
+      "question": "In OOP, what is the purpose of an interface?",
+      "options": [
+        "A) To implement default behaviors",
+        "B) To define a set of methods that implementing classes must provide",
+        "C) To create abstract classes",
+        "D) To manage memory allocation"
+      ],
+      "answer": "B) To define a set of methods that implementing classes must provide"
+    },
+    {
+      "question": "What does the abstract keyword signify in OOP?",
+      "options": [
+        "A) That a class cannot be inherited",
+        "B) That a class can be instantiated",
+        "C) That a method must be implemented in derived classes",
+        "D) That a method cannot be overridden"
+      ],
+      "answer": "C) That a method must be implemented in derived classes"
+    },
+    {
+      "question": "What is the difference between 'is-a' and 'has-a' relationships in OOP?",
+      "options": [
+        "A) 'Is-a' indicates inheritance, while 'has-a' indicates composition",
+        "B) 'Is-a' is used for methods, while 'has-a' is used for properties",
+        "C) There is no difference",
+        "D) 'Is-a' refers to data hiding, while 'has-a' refers to encapsulation"
+      ],
+      "answer": "A) 'Is-a' indicates inheritance, while 'has-a' indicates composition"
+    },
+    {
+      "question": "Which of the following allows a class to inherit properties and behaviors from multiple classes?",
+      "options": [
+        "A) Single inheritance",
+        "B) Multi-level inheritance",
+        "C) Multiple inheritance",
+        "D) Hierarchical inheritance"
+      ],
+      "answer": "C) Multiple inheritance"
+    },
+    {
+      "question": "What is the role of the this keyword in OOP?",
+      "options": [
+        "A) To refer to the parent class",
+        "B) To refer to the current instance of the class",
+        "C) To call static methods",
+        "D) To create new instances"
+      ],
+      "answer": "B) To refer to the current instance of the class"
+    },
+    {
+      "question": "What is an example of a 'has-a' relationship?",
+      "options": [
+        "A) A Dog is an Animal",
+        "B) A Car has an Engine",
+        "C) A Teacher is a Person",
+        "D) A Cat is an Animal"
+      ],
+      "answer": "B) A Car has an Engine"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of an object?",
+      "options": [
+        "A) State",
+        "B) Behavior",
+        "C) Identity",
+        "D) Syntax"
+      ],
+      "answer": "D) Syntax"
+    },
+    {
+      "question": "What does the @Override annotation do in Java?",
+      "options": [
+        "A) It indicates that a method cannot be overridden",
+        "B) It indicates that a method is being overridden from a superclass",
+        "C) It creates an interface",
+        "D) It defines an abstract class"
+      ],
+      "answer": "B) It indicates that a method is being overridden from a superclass"
+    },
+    {
+      "question": "What is the purpose of the instanceof operator in Java?",
+      "options": [
+        "A) To create instances of a class",
+        "B) To check if an object is an instance of a specified class",
+        "C) To cast an object to a different class",
+        "D) To declare a new class"
+      ],
+      "answer": "B) To check if an object is an instance of a specified class"
+    },
+    {
+      "question": "Which of the following is a characteristic of a well-designed class in OOP?",
+      "options": [
+        "A) High coupling",
+        "B) Low cohesion",
+        "C) High cohesion",
+        "D) Lack of encapsulation"
+      ],
+      "answer": "C) High cohesion"
+    },
+    {
+      "question": "What is the primary advantage of using polymorphism in OOP?",
+      "options": [
+        "A) It increases code duplication",
+        "B) It allows for flexible and reusable code",
+        "C) It reduces the number of classes",
+        "D) It simplifies data structures"
+      ],
+      "answer": "B) It allows for flexible and reusable code"
+    }
+  ],
+  ".NET Framework": [
+    {
+      "question": "What is the main function of the .NET Framework?",
+      "options": [
+        "A) Web hosting",
+        "B) Application development",
+        "C) Database management",
+        "D) Network security"
+      ],
+      "answer": "B) Application development"
+    },
+    {
+      "question": "Which language is NOT natively supported by the .NET Framework?",
+      "options": [
+        "A) C#",
+        "B) F#",
+        "C) Java",
+        "D) VB.NET"
+      ],
+      "answer": "C) Java"
+    },
+    {
+      "question": "What does the CLR stand for?",
+      "options": [
+        "A) Common Language Runtime",
+        "B) Common Library Resource",
+        "C) Code Language Reference",
+        "D) Common Logic Resource"
+      ],
+      "answer": "A) Common Language Runtime"
+    },
+    {
+      "question": "Which component of the .NET Framework handles memory management?",
+      "options": [
+        "A) CLR",
+        "B) BCL",
+        "C) ASP.NET",
+        "D) ADO.NET"
+      ],
+      "answer": "A) CLR"
+    },
+    {
+      "question": "Which of the following is a part of the .NET Framework class library?",
+      "options": [
+        "A) User interface",
+        "B) Data access",
+        "C) Security",
+        "D) All of the above"
+      ],
+      "answer": "D) All of the above"
+    },
+    {
+      "question": "Which namespace is used for handling exceptions in .NET?",
+      "options": [
+        "A) System.IO",
+        "B) System.Text",
+        "C) System.Exception",
+        "D) System.Collections"
+      ],
+      "answer": "C) System.Exception"
+    },
+    {
+      "question": "What is the purpose of the Global Assembly Cache (GAC)?",
+      "options": [
+        "A) Store temporary files",
+        "B) Share assemblies across multiple applications",
+        "C) Manage user sessions",
+        "D) Execute web applications"
+      ],
+      "answer": "B) Share assemblies across multiple applications"
+    },
+    {
+      "question": "What does ADO.NET stand for?",
+      "options": [
+        "A) Active Data Objects for .NET",
+        "B) Active Data Operations for .NET",
+        "C) Application Data Objects for .NET",
+        "D) Advanced Data Objects for .NET"
+      ],
+      "answer": "A) Active Data Objects for .NET"
+    },
+    {
+      "question": "Which of the following is a key benefit of using the .NET Framework?",
+      "options": [
+        "A) Cross-platform compatibility",
+        "B) High-level programming",
+        "C) Simplified development",
+        "D) None of the above"
+      ],
+      "answer": "C) Simplified development"
+    },
+    {
+      "question": "What is a delegate in C#?",
+      "options": [
+        "A) A data structure",
+        "B) A method reference",
+        "C) A type of variable",
+        "D) A library"
+      ],
+      "answer": "B) A method reference"
+    },
+    {
+      "question": "Which .NET Framework component allows for the creation of web applications?",
+      "options": [
+        "A) ADO.NET",
+        "B) ASP.NET",
+        "C) WCF",
+        "D) Windows Forms"
+      ],
+      "answer": "B) ASP.NET"
+    },
+    {
+      "question": "What is the default access modifier for class members in C#?",
+      "options": [
+        "A) Private",
+        "B) Public",
+        "C) Protected",
+        "D) Internal"
+      ],
+      "answer": "A) Private"
+    },
+    {
+      "question": "Which of the following is a feature of .NET Core?",
+      "options": [
+        "A) It is only available for Windows",
+        "B) It supports cross-platform development",
+        "C) It requires the full .NET Framework",
+        "D) It does not support ASP.NET"
+      ],
+      "answer": "B) It supports cross-platform development"
+    },
+    {
+      "question": "Which .NET feature helps in building RESTful services?",
+      "options": [
+        "A) ASP.NET MVC",
+        "B) WCF",
+        "C) ASP.NET Web API",
+        "D) Windows Forms"
+      ],
+      "answer": "C) ASP.NET Web API"
+    },
+    {
+      "question": "What is the purpose of the using statement in C#?",
+      "options": [
+        "A) To declare variables",
+        "B) To manage resource disposal",
+        "C) To import namespaces",
+        "D) To define methods"
+      ],
+      "answer": "B) To manage resource disposal"
+    },
+    {
+      "question": "Which of the following is a type of JIT compiler?",
+      "options": [
+        "A) Static JIT",
+        "B) Precompiled JIT",
+        "C) Dynamic JIT",
+        "D) All of the above"
+      ],
+      "answer": "C) Dynamic JIT"
+    },
+    {
+      "question": "What is a NuGet package?",
+      "options": [
+        "A) A type of assembly",
+        "B) A software distribution mechanism",
+        "C) A database",
+        "D) A programming language"
+      ],
+      "answer": "B) A software distribution mechanism"
+    },
+    {
+      "question": "Which of the following statements about value types and reference types is true?",
+      "options": [
+        "A) Value types are stored on the heap",
+        "B) Reference types store the actual data",
+        "C) Value types hold a direct reference to their data",
+        "D) Reference types are stored on the heap"
+      ],
+      "answer": "D) Reference types are stored on the heap"
+    },
+    {
+      "question": "Which class is used to handle string manipulation in .NET?",
+      "options": [
+        "A) StringBuilder",
+        "B) StringHandler",
+        "C) StringManipulator",
+        "D) StringUtils"
+      ],
+      "answer": "A) StringBuilder"
+    },
+    {
+      "question": "What is the purpose of attributes in C#?",
+      "options": [
+        "A) To create new data types",
+        "B) To add metadata to code",
+        "C) To manage exceptions",
+        "D) To define methods"
+      ],
+      "answer": "B) To add metadata to code"
+    },
+    {
+      "question": "Which feature allows for type safety in .NET?",
+      "options": [
+        "A) Reflection",
+        "B) Boxing and Unboxing",
+        "C) Generics",
+        "D) Attributes"
+      ],
+      "answer": "C) Generics"
+    },
+    {
+      "question": "What is the primary function of the Windows Communication Foundation (WCF)?",
+      "options": [
+        "A) Build web applications",
+        "B) Develop RESTful services",
+        "C) Create service-oriented applications",
+        "D) Manage databases"
+      ],
+      "answer": "C) Create service-oriented applications"
+    },
+    {
+      "question": "Which of the following is an example of an immutable type in C#?",
+      "options": [
+        "A) Array",
+        "B) String",
+        "C) List",
+        "D) Dictionary"
+      ],
+      "answer": "B) String"
+    },
+    {
+      "question": "What does the async keyword indicate in C#?",
+      "options": [
+        "A) The method is synchronous",
+        "B) The method will run on a separate thread",
+        "C) The method is asynchronous",
+        "D) The method returns a value"
+      ],
+      "answer": "C) The method is asynchronous"
+    },
+    {
+      "question": "Which method is used to read all lines from a text file in C#?",
+      "options": [
+        "A) File.ReadLines()",
+        "B) File.ReadAllText()",
+        "C) File.ReadAllLines()",
+        "D) File.ReadFile()"
+      ],
+      "answer": "C) File.ReadAllLines()"
+    }
+  ],
+  "C#": [
+    {
+      "question": "Which of the following is used to handle exceptions in C#?",
+      "options": [
+        "A) Try/Catch",
+        "B) If/Else",
+        "C) Switch/Case",
+        "D) For/While"
+      ],
+      "answer": "A) Try/Catch"
+    },
+    {
+      "question": "Which keyword is used to inherit a class in C#?",
+      "options": [
+        "A) inherits",
+        "B) extends",
+        "C) base",
+        "D) :"
+      ],
+      "answer": "D) :"
+    },
+    {
+      "question": "What does the override keyword do in C#?",
+      "options": [
+        "A) It prevents method overriding",
+        "B) It calls the base class method",
+        "C) It modifies a base class method",
+        "D) It creates a new method"
+      ],
+      "answer": "C) It modifies a base class method"
+    },
+    {
+      "question": "What is the purpose of the static keyword in C#?",
+      "options": [
+        "A) To create an instance",
+        "B) To indicate a variable's lifetime",
+        "C) To declare a class method that belongs to the class itself",
+        "D) To indicate that a method can be overridden"
+      ],
+      "answer": "C) To declare a class method that belongs to the class itself"
+    },
+    {
+      "question": "What is the output of the following code: Console.WriteLine(1 + \"2\" + 3);?",
+      "options": [
+        "A) 123",
+        "B) 6",
+        "C) 33",
+        "D) 15"
+      ],
+      "answer": "A) 123"
+    },
+    {
+      "question": "Which type of loop is guaranteed to execute at least once?",
+      "options": [
+        "A) For loop",
+        "B) While loop",
+        "C) Do-while loop",
+        "D) Foreach loop"
+      ],
+      "answer": "C) Do-while loop"
+    },
+    {
+      "question": "What is the result of 5 == 5 ? \"True\" : \"False\";?",
+      "options": [
+        "A) True",
+        "B) False",
+        "C) 5",
+        "D) \"True\""
+      ],
+      "answer": "D) \"True\""
+    },
+    {
+      "question": "Which of the following is NOT a valid access modifier in C#?",
+      "options": [
+        "A) public",
+        "B) private",
+        "C) internal",
+        "D) restricted"
+      ],
+      "answer": "D) restricted"
+    },
+    {
+      "question": "What is the primary purpose of the params keyword in C#?",
+      "options": [
+        "A) To define optional parameters",
+        "B) To create an array of parameters",
+        "C) To specify the return type",
+        "D) To define a local variable"
+      ],
+      "answer": "A) To define optional parameters"
+    },
+    {
+      "question": "What is the output of the following code snippet? Console.WriteLine(3.0 / 2);",
+      "options": [
+        "A) 1.5",
+        "B) 1",
+        "C) 2",
+        "D) 3"
+      ],
+      "answer": "A) 1.5"
+    },
+    {
+      "question": "Which of the following statements is true about interfaces in C#?",
+      "options": [
+        "A) An interface can contain implementation",
+        "B) A class can implement multiple interfaces",
+        "C) An interface can be instantiated",
+        "D) An interface cannot have properties"
+      ],
+      "answer": "B) A class can implement multiple interfaces"
+    },
+    {
+      "question": "What keyword is used to define an interface in C#?",
+      "options": [
+        "A) class",
+        "B) interface",
+        "C) struct",
+        "D) abstract"
+      ],
+      "answer": "B) interface"
+    },
+    {
+      "question": "Which method is called when an object is created in C#?",
+      "options": [
+        "A) Finalizer",
+        "B) Destructor",
+        "C) Constructor",
+        "D) Method"
+      ],
+      "answer": "C) Constructor"
+    },
+    {
+      "question": "What is the base class for all exceptions in C#?",
+      "options": [
+        "A) System.Exception",
+        "B) System.ApplicationException",
+        "C) System.IO.Exception",
+        "D) System.InvalidOperationException"
+      ],
+      "answer": "A) System.Exception"
+    },
+    {
+      "question": "What is the purpose of the new keyword in C#?",
+      "options": [
+        "A) To declare a new class",
+        "B) To create an instance of an object",
+        "C) To define a variable",
+        "D) To modify an existing object"
+      ],
+      "answer": "B) To create an instance of an object"
+    },
+    {
+      "question": "Which of the following collections is not part of the System.Collections namespace?",
+      "options": [
+        "A) ArrayList",
+        "B) List<T>",
+        "C) Hashtable",
+        "D) Queue"
+      ],
+      "answer": "B) List<T>"
+    },
+    {
+      "question": "What is the result of the following code: int x = 5; x += 10;?",
+      "options": [
+        "A) 15",
+        "B) 10",
+        "C) 5",
+        "D) 0"
+      ],
+      "answer": "A) 15"
+    },
+    {
+      "question": "Which keyword is used to define a method that cannot be overridden?",
+      "options": [
+        "A) sealed",
+        "B) static",
+        "C) virtual",
+        "D) override"
+      ],
+      "answer": "A) sealed"
+    },
+    {
+      "question": "What will be the output of Console.WriteLine(\"Hello World\"[1]);?",
+      "options": [
+        "A) H",
+        "B) e",
+        "C) l",
+        "D) o"
+      ],
+      "answer": "B) e"
+    },
+    {
+      "question": "Which of the following is a built-in type for storing textual data in C#?",
+      "options": [
+        "A) String",
+        "B) Char",
+        "C) StringBuilder",
+        "D) All of the above"
+      ],
+      "answer": "D) All of the above"
+    },
+    {
+      "question": "Which operator is used to perform a logical AND operation in C#?",
+      "options": [
+        "A) &",
+        "B) &&",
+        "C) |",
+        "D) ||"
+      ],
+      "answer": "B) &&"
+    },
+    {
+      "question": "What does the readonly keyword indicate in C#?",
+      "options": [
+        "A) The variable can be changed at any time",
+        "B) The variable can only be assigned at declaration or in a constructor",
+        "C) The variable is a constant",
+        "D) The variable can be used for multithreading"
+      ],
+      "answer": "B) The variable can only be assigned at declaration or in a constructor"
+    },
+    {
+      "question": "Which of the following is used to declare an array in C#?",
+      "options": [
+        "A) int[] arr = new int[5];",
+        "B) int arr[] = new int[5];",
+        "C) int arr = new int[5];",
+        "D) array<int> arr = new array<int>(5);"
+      ],
+      "answer": "A) int[] arr = new int[5];"
+    },
+    {
+      "question": "What will the following code output? Console.WriteLine(10 % 3);",
+      "options": [
+        "A) 1",
+        "B) 3",
+        "C) 0",
+        "D) 2"
+      ],
+      "answer": "D) 1"
+    },
+    {
+      "question": "What is the purpose of the volatile keyword in C#?",
+      "options": [
+        "A) To make a variable thread-safe",
+        "B) To prevent compiler optimizations",
+        "C) To declare a global variable",
+        "D) To indicate that a variable is immutable"
+      ],
+      "answer": "B) To prevent compiler optimizations"
+    }
+  ],
+  "Azure Cloud Services": [
+    {
+      "question": "What is Azure Blob Storage primarily used for?",
+      "options": [
+        "A) Storing relational databases",
+        "B) Storing unstructured data",
+        "C) Hosting virtual machines",
+        "D) Running applications"
+      ],
+      "answer": "B) Storing unstructured data"
+    },
+    {
+      "question": "Which Azure service is used for serverless computing?",
+      "options": [
+        "A) Azure Functions",
+        "B) Azure App Service",
+        "C) Azure Kubernetes Service",
+        "D) Azure Virtual Machines"
+      ],
+      "answer": "A) Azure Functions"
+    },
+    {
+      "question": "What is the primary purpose of Azure Active Directory?",
+      "options": [
+        "A) To store files",
+        "B) To provide identity and access management",
+        "C) To manage databases",
+        "D) To run virtual machines"
+      ],
+      "answer": "B) To provide identity and access management"
+    },
+    {
+      "question": "Which of the following Azure services is used to deploy containers?",
+      "options": [
+        "A) Azure App Service",
+        "B) Azure Kubernetes Service",
+        "C) Azure Functions",
+        "D) Azure SQL Database"
+      ],
+      "answer": "B) Azure Kubernetes Service"
+    },
+    {
+      "question": "What does Azure Resource Manager (ARM) do?",
+      "options": [
+        "A) Manages virtual networks",
+        "B) Deploys and manages resources in Azure",
+        "C) Monitors application performance",
+        "D) Secures user data"
+      ],
+      "answer": "B) Deploys and manages resources in Azure"
+    },
+    {
+      "question": "Which Azure service provides a fully managed NoSQL database?",
+      "options": [
+        "A) Azure SQL Database",
+        "B) Azure Cosmos DB",
+        "C) Azure Blob Storage",
+        "D) Azure Data Lake"
+      ],
+      "answer": "B) Azure Cosmos DB"
+    },
+    {
+      "question": "What is Azure Logic Apps used for?",
+      "options": [
+        "A) Deploying virtual machines",
+        "B) Automating workflows",
+        "C) Monitoring applications",
+        "D) Storing data"
+      ],
+      "answer": "B) Automating workflows"
+    },
+    {
+      "question": "What is the primary benefit of Azure Virtual Network?",
+      "options": [
+        "A) Hosting websites",
+        "B) Securing network traffic",
+        "C) Running databases",
+        "D) Storing large files"
+      ],
+      "answer": "B) Securing network traffic"
+    },
+    {
+      "question": "Which of the following is a key feature of Azure DevOps?",
+      "options": [
+        "A) Cloud storage",
+        "B) CI/CD pipelines",
+        "C) Virtual machines",
+        "D) SQL databases"
+      ],
+      "answer": "B) CI/CD pipelines"
+    },
+    {
+      "question": "What is the purpose of Azure App Service?",
+      "options": [
+        "A) To run virtual machines",
+        "B) To host web applications",
+        "C) To provide file storage",
+        "D) To create databases"
+      ],
+      "answer": "B) To host web applications"
+    },
+    {
+      "question": "Which Azure service helps you to analyze big data?",
+      "options": [
+        "A) Azure Data Lake Analytics",
+        "B) Azure SQL Database",
+        "C) Azure Blob Storage",
+        "D) Azure App Service"
+      ],
+      "answer": "A) Azure Data Lake Analytics"
+    },
+    {
+      "question": "What is the primary role of Azure Monitor?",
+      "options": [
+        "A) To store files",
+        "B) To monitor application performance",
+        "C) To manage user identities",
+        "D) To run virtual machines"
+      ],
+      "answer": "B) To monitor application performance"
+    },
+    {
+      "question": "Which of the following is a service that helps you to build chatbots in Azure?",
+      "options": [
+        "A) Azure Bot Services",
+        "B) Azure Functions",
+        "C) Azure App Services",
+        "D) Azure Logic Apps"
+      ],
+      "answer": "A) Azure Bot Services"
+    },
+    {
+      "question": "Which Azure service provides a scalable messaging service?",
+      "options": [
+        "A) Azure Blob Storage",
+        "B) Azure Queue Storage",
+        "C) Azure SQL Database",
+        "D) Azure App Service"
+      ],
+      "answer": "B) Azure Queue Storage"
+    },
+    {
+      "question": "What is the purpose of Azure Traffic Manager?",
+      "options": [
+        "A) To manage virtual machines",
+        "B) To distribute network traffic across Azure regions",
+        "C) To store data",
+        "D) To monitor applications"
+      ],
+      "answer": "B) To distribute network traffic across Azure regions"
+    },
+    {
+      "question": "What type of service is Azure Cognitive Services?",
+      "options": [
+        "A) Storage",
+        "B) Machine learning and AI",
+        "C) Networking",
+        "D) Database"
+      ],
+      "answer": "B) Machine learning and AI"
+    },
+    {
+      "question": "Which Azure service is designed for deploying applications in a microservices architecture?",
+      "options": [
+        "A) Azure Functions",
+        "B) Azure Kubernetes Service",
+        "C) Azure Virtual Machines",
+        "D) Azure SQL Database"
+      ],
+      "answer": "B) Azure Kubernetes Service"
+    },
+    {
+      "question": "What is the function of Azure Automation?",
+      "options": [
+        "A) To host websites",
+        "B) To manage user access",
+        "C) To automate repetitive tasks",
+        "D) To store databases"
+      ],
+      "answer": "C) To automate repetitive tasks"
+    },
+    {
+      "question": "What is Azure Key Vault used for?",
+      "options": [
+        "A) Storing large files",
+        "B) Managing user identities",
+        "C) Storing secrets and encryption keys",
+        "D) Running virtual machines"
+      ],
+      "answer": "C) Storing secrets and encryption keys"
+    },
+    {
+      "question": "Which Azure service is used for data warehousing?",
+      "options": [
+        "A) Azure Data Lake",
+        "B) Azure SQL Database",
+        "C) Azure Synapse Analytics",
+        "D) Azure Blob Storage"
+      ],
+      "answer": "C) Azure Synapse Analytics"
+    },
+    {
+      "question": "What is the purpose of Azure Site Recovery?",
+      "options": [
+        "A) To back up files",
+        "B) To manage databases",
+        "C) To provide disaster recovery solutions",
+        "D) To monitor performance"
+      ],
+      "answer": "C) To provide disaster recovery solutions"
+    },
+    {
+      "question": "Which Azure service can be used to build and deploy machine learning models?",
+      "options": [
+        "A) Azure Machine Learning",
+        "B) Azure Data Factory",
+        "C) Azure DevOps",
+        "D) Azure App Service"
+      ],
+      "answer": "A) Azure Machine Learning"
+    },
+    {
+      "question": "What does Azure SQL Database provide?",
+      "options": [
+        "A) NoSQL storage",
+        "B) Managed relational database service",
+        "C) File storage",
+        "D) Message queuing"
+      ],
+      "answer": "B) Managed relational database service"
+    },
+    {
+      "question": "Which Azure service provides backup and restore capabilities?",
+      "options": [
+        "A) Azure Backup",
+        "B) Azure Blob Storage",
+        "C) Azure Site Recovery",
+        "D) Azure App Service"
+      ],
+      "answer": "A) Azure Backup"
+    },
+    {
+      "question": "What is the main benefit of using Azure DevTest Labs?",
+      "options": [
+        "A) To store files",
+        "B) To create isolated development environments",
+        "C) To monitor applications",
+        "D) To run production workloads"
+      ],
+      "answer": "B) To create isolated development environments"
+    }
+  ],
+  "Software Architecture": [
+    {
+      "question": "What is the primary goal of software architecture?",
+      "options": [
+        "A) To implement coding standards",
+        "B) To define the structure of the system",
+        "C) To optimize performance",
+        "D) To manage project timelines"
+      ],
+      "answer": "B) To define the structure of the system"
+    },
+    {
+      "question": "Which architectural pattern is used for separating concerns in a web application?",
+      "options": [
+        "A) Monolithic",
+        "B) Microservices",
+        "C) Layered",
+        "D) Event-driven"
+      ],
+      "answer": "C) Layered"
+    },
+    {
+      "question": "In which architectural style do services communicate over a network?",
+      "options": [
+        "A) Monolithic",
+        "B) Microservices",
+        "C) Event-driven",
+        "D) Service-oriented architecture (SOA)"
+      ],
+      "answer": "D) Service-oriented architecture (SOA)"
+    },
+    {
+      "question": "What is a key advantage of the microservices architecture?",
+      "options": [
+        "A) Simplicity",
+        "B) Scalability",
+        "C) Lower costs",
+        "D) Less complexity"
+      ],
+      "answer": "B) Scalability"
+    },
+    {
+      "question": "Which of the following is a disadvantage of a monolithic architecture?",
+      "options": [
+        "A) Easier deployment",
+        "B) Increased complexity",
+        "C) Better performance",
+        "D) Simpler testing"
+      ],
+      "answer": "B) Increased complexity"
+    },
+    {
+      "question": "What does REST stand for in the context of web services?",
+      "options": [
+        "A) Representational State Transfer",
+        "B) Remote Service Transfer",
+        "C) Rapid Event Stream Transfer",
+        "D) Real-time Service Transfer"
+      ],
+      "answer": "A) Representational State Transfer"
+    },
+    {
+      "question": "Which of the following is not a characteristic of microservices?",
+      "options": [
+        "A) Decentralized data management",
+        "B) Single codebase",
+        "C) Independent deployment",
+        "D) Small, focused services"
+      ],
+      "answer": "B) Single codebase"
+    },
+    {
+      "question": "What is the purpose of an API gateway in microservices architecture?",
+      "options": [
+        "A) To store data",
+        "B) To provide a single entry point for clients",
+        "C) To manage databases",
+        "D) To host services"
+      ],
+      "answer": "B) To provide a single entry point for clients"
+    },
+    {
+      "question": "What is the term for the ability of a system to handle increased loads by adding resources?",
+      "options": [
+        "A) Scalability",
+        "B) Availability",
+        "C) Reliability",
+        "D) Maintainability"
+      ],
+      "answer": "A) Scalability"
+    },
+    {
+      "question": "Which design pattern is commonly used to decouple services in an event-driven architecture?",
+      "options": [
+        "A) Observer",
+        "B) Singleton",
+        "C) Factory",
+        "D) Strategy"
+      ],
+      "answer": "A) Observer"
+    },
+    {
+      "question": "What is the main benefit of using an architectural pattern?",
+      "options": [
+        "A) Increased development time",
+        "B) Improved collaboration",
+        "C) Standardized solution to common problems",
+        "D) Simplified testing"
+      ],
+      "answer": "C) Standardized solution to common problems"
+    },
+    {
+      "question": "Which of the following best describes 'DevOps'?",
+      "options": [
+        "A) Development and operations teams working independently",
+        "B) Collaboration between development and operations for better deployment",
+        "C) A programming language",
+        "D) A database technology"
+      ],
+      "answer": "B) Collaboration between development and operations for better deployment"
+    },
+    {
+      "question": "What is a key characteristic of a layered architecture?",
+      "options": [
+        "A) All layers can access each other's data",
+        "B) Strict separation of concerns between layers",
+        "C) Layers are tightly coupled",
+        "D) No defined layers"
+      ],
+      "answer": "B) Strict separation of concerns between layers"
+    },
+    {
+      "question": "What does the term 'CQRS' stand for in software architecture?",
+      "options": [
+        "A) Command Query Responsibility Segregation",
+        "B) Command Query Resource Separation",
+        "C) Centralized Query Resource System",
+        "D) Command Quick Response System"
+      ],
+      "answer": "A) Command Query Responsibility Segregation"
+    },
+    {
+      "question": "Which architectural style emphasizes asynchronous communication between components?",
+      "options": [
+        "A) Monolithic",
+        "B) Microservices",
+        "C) Event-driven",
+        "D) Layered"
+      ],
+      "answer": "C) Event-driven"
+    },
+    {
+      "question": "What is the role of a service registry in microservices architecture?",
+      "options": [
+        "A) To store files",
+        "B) To manage service instances and their metadata",
+        "C) To run virtual machines",
+        "D) To provide security"
+      ],
+      "answer": "B) To manage service instances and their metadata"
+    },
+    {
+      "question": "Which architectural pattern is suitable for applications requiring high availability and fault tolerance?",
+      "options": [
+        "A) Monolithic",
+        "B) Microservices",
+        "C) Event-driven",
+        "D) Client-server"
+      ],
+      "answer": "B) Microservices"
+    },
+    {
+      "question": "What is the purpose of caching in software architecture?",
+      "options": [
+        "A) To reduce database load",
+        "B) To increase data redundancy",
+        "C) To improve security",
+        "D) To ensure data integrity"
+      ],
+      "answer": "A) To reduce database load"
+    },
+    {
+      "question": "Which of the following is a common approach to ensure data consistency in distributed systems?",
+      "options": [
+        "A) Eventual consistency",
+        "B) Immediate consistency",
+        "C) Strong consistency",
+        "D) Soft consistency"
+      ],
+      "answer": "A) Eventual consistency"
+    },
+    {
+      "question": "What is the primary goal of software design patterns?",
+      "options": [
+        "A) To simplify code",
+        "B) To create a standard for coding",
+        "C) To provide reusable solutions to common problems",
+        "D) To increase coding speed"
+      ],
+      "answer": "C) To provide reusable solutions to common problems"
+    },
+    {
+      "question": "In a microservices architecture, what is the role of the 'sidecar' pattern?",
+      "options": [
+        "A) To enhance the capabilities of a service",
+        "B) To replace the main service",
+        "C) To manage database connections",
+        "D) To store logs"
+      ],
+      "answer": "A) To enhance the capabilities of a service"
+    },
+    {
+      "question": "Which of the following is a disadvantage of a microservices architecture?",
+      "options": [
+        "A) Scalability",
+        "B) Increased complexity in management",
+        "C) Independent deployment",
+        "D) Improved fault isolation"
+      ],
+      "answer": "B) Increased complexity in management"
+    },
+    {
+      "question": "What does 'containerization' refer to in software architecture?",
+      "options": [
+        "A) The process of compressing data",
+        "B) The practice of bundling an application and its dependencies",
+        "C) The creation of virtual machines",
+        "D) The development of cloud-based applications"
+      ],
+      "answer": "B) The practice of bundling an application and its dependencies"
+    },
+    {
+      "question": "Which of the following best describes 'Serverless architecture'?",
+      "options": [
+        "A) Servers are completely eliminated",
+        "B) Developers do not manage server infrastructure",
+        "C) All services are hosted on physical servers",
+        "D) Server resources are always dedicated to a single application"
+      ],
+      "answer": "B) Developers do not manage server infrastructure"
+    },
+    {
+      "question": "What is the primary purpose of software documentation in architecture?",
+      "options": [
+        "A) To outline coding standards",
+        "B) To provide a reference for future development and maintenance",
+        "C) To improve user experience",
+        "D) To manage project timelines"
+      ],
+      "answer": "B) To provide a reference for future development and maintenance"
+    }
+  ],
+  "Agile Methodologies": [
+    {
+      "question": "What does Agile methodology primarily focus on?",
+      "options": [
+        "A) Comprehensive documentation",
+        "B) Customer collaboration and flexibility",
+        "C) Strict processes and plans",
+        "D) Long development cycles"
+      ],
+      "answer": "B) Customer collaboration and flexibility"
+    },
+    {
+      "question": "Which framework is commonly associated with Agile methodologies?",
+      "options": [
+        "A) Waterfall",
+        "B) Scrum",
+        "C) V-Model",
+        "D) RAD"
+      ],
+      "answer": "B) Scrum"
+    },
+    {
+      "question": "What is the purpose of a sprint in Scrum?",
+      "options": [
+        "A) To gather requirements",
+        "B) To deliver a potentially shippable product increment",
+        "C) To plan future releases",
+        "D) To conduct retrospective meetings"
+      ],
+      "answer": "B) To deliver a potentially shippable product increment"
+    },
+    {
+      "question": "In Agile, what is a user story?",
+      "options": [
+        "A) A detailed project plan",
+        "B) A feature written from the perspective of an end-user",
+        "C) A summary of project objectives",
+        "D) A method of testing"
+      ],
+      "answer": "B) A feature written from the perspective of an end-user"
+    },
+    {
+      "question": "What is the role of a Scrum Master?",
+      "options": [
+        "A) To manage the development team",
+        "B) To ensure the team follows Agile practices and removes impediments",
+        "C) To write code",
+        "D) To prioritize the product backlog"
+      ],
+      "answer": "B) To ensure the team follows Agile practices and removes impediments"
+    },
+    {
+      "question": "Which of the following is a key principle of Agile?",
+      "options": [
+        "A) Change is costly",
+        "B) Prioritizing customer satisfaction through early and continuous delivery",
+        "C) Extensive documentation is essential",
+        "D) Processes and tools are more important than people"
+      ],
+      "answer": "B) Prioritizing customer satisfaction through early and continuous delivery"
+    },
+    {
+      "question": "What does the term 'burndown chart' refer to in Agile?",
+      "options": [
+        "A) A tool for planning releases",
+        "B) A chart showing remaining work over time",
+        "C) A list of user stories",
+        "D) A financial report"
+      ],
+      "answer": "B) A chart showing remaining work over time"
+    },
+    {
+      "question": "In Agile, what is a retrospective?",
+      "options": [
+        "A) A meeting to plan the next sprint",
+        "B) A review of completed work and lessons learned",
+        "C) A session for gathering requirements",
+        "D) A meeting to update documentation"
+      ],
+      "answer": "B) A review of completed work and lessons learned"
+    },
+    {
+      "question": "Which of the following is a common Agile practice?",
+      "options": [
+        "A) Waterfall approach",
+        "B) Daily stand-up meetings",
+        "C) Extensive documentation",
+        "D) Fixed project timelines"
+      ],
+      "answer": "B) Daily stand-up meetings"
+    },
+    {
+      "question": "What is the main goal of continuous integration in Agile?",
+      "options": [
+        "A) To reduce costs",
+        "B) To improve team communication",
+        "C) To frequently integrate code changes into a shared repository",
+        "D) To document requirements"
+      ],
+      "answer": "C) To frequently integrate code changes into a shared repository"
+    },
+    {
+      "question": "In Agile, what is the significance of 'working software'?",
+      "options": [
+        "A) It is a measure of project progress",
+        "B) It is more valuable than comprehensive documentation",
+        "C) It is the only metric of success",
+        "D) It is a secondary concern"
+      ],
+      "answer": "B) It is more valuable than comprehensive documentation"
+    },
+    {
+      "question": "Which Agile framework emphasizes delivering work in small, incremental pieces?",
+      "options": [
+        "A) Waterfall",
+        "B) Kanban",
+        "C) V-Model",
+        "D) Spiral"
+      ],
+      "answer": "B) Kanban"
+    },
+    {
+      "question": "What is the purpose of a product backlog in Agile?",
+      "options": [
+        "A) To outline the entire project plan",
+        "B) To prioritize and manage features, enhancements, and fixes",
+        "C) To document user requirements",
+        "D) To track project costs"
+      ],
+      "answer": "B) To prioritize and manage features, enhancements, and fixes"
+    },
+    {
+      "question": "What does 'velocity' measure in Agile?",
+      "options": [
+        "A) The speed of development",
+        "B) The amount of work completed in a sprint",
+        "C) The time taken to complete a project",
+        "D) The team's efficiency"
+      ],
+      "answer": "B) The amount of work completed in a sprint"
+    },
+    {
+      "question": "In Agile, what is a 'definition of done'?",
+      "options": [
+        "A) A checklist of features",
+        "B) A set of criteria that a product increment must meet to be considered complete",
+        "C) A document outlining project goals",
+        "D) A timeline for project completion"
+      ],
+      "answer": "B) A set of criteria that a product increment must meet to be considered complete"
+    },
+    {
+      "question": "Which of the following best describes the term 'increment' in Agile?",
+      "options": [
+        "A) A partial release of the project",
+        "B) A complete and functional addition to the product",
+        "C) An update to project documentation",
+        "D) A change request"
+      ],
+      "answer": "B) A complete and functional addition to the product"
+    },
+    {
+      "question": "What is a Kanban board used for in Agile?",
+      "options": [
+        "A) To track project budgets",
+        "B) To visualize work in progress and manage flow",
+        "C) To document user stories",
+        "D) To schedule meetings"
+      ],
+      "answer": "B) To visualize work in progress and manage flow"
+    },
+    {
+      "question": "In Agile, what is the role of the product owner?",
+      "options": [
+        "A) To manage the development team",
+        "B) To represent the stakeholders and prioritize the product backlog",
+        "C) To write code",
+        "D) To conduct testing"
+      ],
+      "answer": "B) To represent the stakeholders and prioritize the product backlog"
+    },
+    {
+      "question": "Which of the following is not a characteristic of Agile development?",
+      "options": [
+        "A) Customer collaboration",
+        "B) Responding to change",
+        "C) Fixed project requirements",
+        "D) Iterative delivery"
+      ],
+      "answer": "C) Fixed project requirements"
+    },
+    {
+      "question": "What is 'pair programming'?",
+      "options": [
+        "A) A method of testing",
+        "B) Two developers working together at one workstation",
+        "C) A technique for writing user stories",
+        "D) A strategy for project planning"
+      ],
+      "answer": "B) Two developers working together at one workstation"
+    },
+    {
+      "question": "What is the primary focus of a Scrum team?",
+      "options": [
+        "A) To deliver the project on time",
+        "B) To produce a potentially shippable product increment every sprint",
+        "C) To minimize costs",
+        "D) To create detailed documentation"
+      ],
+      "answer": "B) To produce a potentially shippable product increment every sprint"
+    },
+    {
+      "question": "In Agile, what is meant by 'adaptive planning'?",
+      "options": [
+        "A) Fixed project schedules",
+        "B) Adjusting plans based on changing requirements and feedback",
+        "C) Detailed upfront planning",
+        "D) Following a rigid timeline"
+      ],
+      "answer": "B) Adjusting plans based on changing requirements and feedback"
+    },
+    {
+      "question": "Which of the following roles is not part of a Scrum team?",
+      "options": [
+        "A) Scrum Master",
+        "B) Product Owner",
+        "C) Development Team",
+        "D) Project Manager"
+      ],
+      "answer": "D) Project Manager"
+    },
+    {
+      "question": "What is the significance of 'customer collaboration' in Agile?",
+      "options": [
+        "A) It is optional",
+        "B) It is less important than contract negotiation",
+        "C) It helps ensure the product meets customer needs",
+        "D) It increases project costs"
+      ],
+      "answer": "C) It helps ensure the product meets customer needs"
+    },
+    {
+      "question": "What is a 'release plan' in Agile?",
+      "options": [
+        "A) A timeline for completing the entire project",
+        "B) A plan for delivering product increments to users",
+        "C) A document outlining project requirements",
+        "D) A budget plan for the project"
+      ],
+      "answer": "B) A plan for delivering product increments to users"
+    }
+  ],
+  "Quantum Computing": [
+    {
+      "question": "What is quantum computing based on?",
+      "options": [
+        "A) Classical bits",
+        "B) Quantum bits (qubits)",
+        "C) Transistors",
+        "D) Optical fibers"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which principle allows qubits to exist in multiple states at once?",
+      "options": [
+        "A) Superposition",
+        "B) Entanglement",
+        "C) Interference",
+        "D) Measurement"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the significance of entanglement in quantum computing?",
+      "options": [
+        "A) It allows classical bits to interact",
+        "B) It creates correlations between qubits",
+        "C) It simplifies classical algorithms",
+        "D) It reduces computational power"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which algorithm is famously known for factoring large numbers?",
+      "options": [
+        "A) Grover’s Algorithm",
+        "B) Shor’s Algorithm",
+        "C) Deutsch-Josza Algorithm",
+        "D) QAOA"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary goal of quantum supremacy?",
+      "options": [
+        "A) To replace classical computing",
+        "B) To demonstrate a quantum computer can solve problems beyond classical computers",
+        "C) To develop new programming languages",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a key challenge in quantum computing?",
+      "options": [
+        "A) High temperatures",
+        "B) Error correction",
+        "C) Network bandwidth",
+        "D) Data storage"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'qubit' stand for?",
+      "options": [
+        "A) Quantum byte",
+        "B) Quantum bit",
+        "C) Quick bit",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which quantum gate acts like a classical NOT gate?",
+      "options": [
+        "A) Hadamard gate",
+        "B) Pauli-X gate",
+        "C) Toffoli gate",
+        "D) CNOT gate"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following describes a quantum computer’s processing power?",
+      "options": [
+        "A) Exponential compared to classical computers",
+        "B) Linear compared to classical computers",
+        "C) Quadratic compared to classical computers",
+        "D) Constant compared to classical computers"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a quantum circuit?",
+      "options": [
+        "A) A physical layout of a quantum computer",
+        "B) A sequence of quantum gates and measurements",
+        "C) A type of classical circuit",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a quantum algorithm?",
+      "options": [
+        "A) Shor’s Algorithm",
+        "B) Grover’s Algorithm",
+        "C) Dijkstra’s Algorithm",
+        "D) Quantum Fourier Transform"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of quantum error correction?",
+      "options": [
+        "A) To improve speed",
+        "B) To manage qubit interactions",
+        "C) To protect qubits from decoherence",
+        "D) To increase storage capacity"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What is decoherence in quantum computing?",
+      "options": [
+        "A) A state of superposition",
+        "B) Loss of quantum information due to environment interactions",
+        "C) The process of measuring a qubit",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which programming language is commonly used for quantum programming?",
+      "options": [
+        "A) Python",
+        "B) Qiskit",
+        "C) Java",
+        "D) C++"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of the Hadamard gate in quantum computing?",
+      "options": [
+        "A) To invert a qubit",
+        "B) To create superposition",
+        "C) To entangle qubits",
+        "D) To measure qubits"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a popular quantum computing platform?",
+      "options": [
+        "A) IBM Quantum Experience",
+        "B) Microsoft Azure",
+        "C) Google Cloud",
+        "D) Amazon Web Services"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a quantum state?",
+      "options": [
+        "A) A classical bit configuration",
+        "B) A representation of information in a quantum system",
+        "C) A measurement result",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which device is often used to implement qubits in quantum computers?",
+      "options": [
+        "A) Photons",
+        "B) Electrons",
+        "C) Atoms",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What type of problems are quantum computers particularly good at solving?",
+      "options": [
+        "A) Simple arithmetic calculations",
+        "B) Complex optimization problems",
+        "C) Basic data entry tasks",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the role of quantum annealing?",
+      "options": [
+        "A) To enhance speed",
+        "B) To find the minimum of a function",
+        "C) To store quantum information",
+        "D) To measure qubits"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What type of algorithm does Grover's algorithm improve?",
+      "options": [
+        "A) Search algorithms",
+        "B) Sorting algorithms",
+        "C) Factorization algorithms",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What are quantum simulators used for?",
+      "options": [
+        "A) To simulate classical computers",
+        "B) To test quantum algorithms on classical hardware",
+        "C) To enhance network security",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is a quantum gate?",
+      "options": [
+        "A) A hardware component",
+        "B) A basic building block of quantum circuits that operates on qubits",
+        "C) A type of classical logic gate",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'quantum advantage' refer to?",
+      "options": [
+        "A) When a quantum computer performs better than a classical computer on certain tasks",
+        "B) When classical computers can replicate quantum tasks",
+        "C) The difficulty of building a quantum computer",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a property of qubits?",
+      "options": [
+        "A) They can only exist in one state at a time",
+        "B) They can be entangled with other qubits",
+        "C) They are limited to binary values",
+        "D) All of the above"
+      ],
+      "answer": "B"
+    }
+  ],
+  "Blockchain": [
+    {
+      "question": "What is blockchain technology primarily used for?",
+      "options": [
+        "A) Storing images",
+        "B) Decentralized data management",
+        "C) Video streaming",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following best describes a blockchain?",
+      "options": [
+        "A) A centralized database",
+        "B) A distributed ledger",
+        "C) A cloud storage system",
+        "D) A file-sharing platform"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does 'decentralization' mean in the context of blockchain?",
+      "options": [
+        "A) Control by a single entity",
+        "B) Distribution of control among multiple participants",
+        "C) No access to the network",
+        "D) High costs"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which component of a blockchain stores transaction data?",
+      "options": [
+        "A) Node",
+        "B) Block",
+        "C) Ledger",
+        "D) Hash"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is a smart contract?",
+      "options": [
+        "A) A legal agreement",
+        "B) A program that executes automatically when conditions are met",
+        "C) A type of blockchain node",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does hashing do in a blockchain?",
+      "options": [
+        "A) Increases transaction speed",
+        "B) Ensures data integrity",
+        "C) Stores user data",
+        "D) Facilitates file sharing"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a consensus mechanism used in blockchain?",
+      "options": [
+        "A) Proof of Work",
+        "B) Proof of Stake",
+        "C) Delegated Proof of Stake",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is a node in blockchain?",
+      "options": [
+        "A) A computer that participates in the blockchain network",
+        "B) A user of the blockchain",
+        "C) A type of transaction",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which blockchain is known for its cryptocurrency, Bitcoin?",
+      "options": [
+        "A) Ethereum",
+        "B) Hyperledger",
+        "C) Bitcoin blockchain",
+        "D) Ripple"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What does a blockchain fork refer to?",
+      "options": [
+        "A) A new block created",
+        "B) A split in the blockchain network",
+        "C) A transaction error",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the main advantage of using blockchain for transactions?",
+      "options": [
+        "A) High transaction fees",
+        "B) Enhanced security and transparency",
+        "C) Centralized control",
+        "D) Increased processing time"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is NOT a type of blockchain?",
+      "options": [
+        "A) Public Blockchain",
+        "B) Private Blockchain",
+        "C) Hybrid Blockchain",
+        "D) Centralized Blockchain"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is the purpose of a blockchain wallet?",
+      "options": [
+        "A) To mine cryptocurrencies",
+        "B) To store cryptocurrencies and manage public/private keys",
+        "C) To trade cryptocurrencies",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which protocol is primarily used for the Ethereum blockchain?",
+      "options": [
+        "A) Bitcoin protocol",
+        "B) Proof of Stake",
+        "C) ERC-20",
+        "D) Hyperledger Fabric"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What does the term 'immutable' mean in the context of blockchain?",
+      "options": [
+        "A) Data can be easily changed",
+        "B) Data cannot be altered or deleted once added",
+        "C) Data is temporary",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following can blockchain technology be used for?",
+      "options": [
+        "A) Supply chain management",
+        "B) Digital identity verification",
+        "C) Voting systems",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is a token in blockchain?",
+      "options": [
+        "A) A physical coin",
+        "B) A digital asset created on a blockchain",
+        "C) A type of hardware",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of a private blockchain?",
+      "options": [
+        "A) Bitcoin",
+        "B) Ethereum",
+        "C) Hyperledger Fabric",
+        "D) Ripple"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What is a block in a blockchain?",
+      "options": [
+        "A) A storage device",
+        "B) A group of transactions recorded on the blockchain",
+        "C) A type of cryptocurrency",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is a decentralized application (dApp)?",
+      "options": [
+        "A) An application hosted on a centralized server",
+        "B) An application that runs on a peer-to-peer network",
+        "C) An application for mobile devices only",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the main function of a miner in a blockchain network?",
+      "options": [
+        "A) To manage user accounts",
+        "B) To validate transactions and create new blocks",
+        "C) To provide technical support",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the main feature of permissioned blockchains?",
+      "options": [
+        "A) Open to everyone",
+        "B) Access restricted to specific users",
+        "C) No security measures",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What type of information is stored in the genesis block?",
+      "options": [
+        "A) The first block of the blockchain",
+        "B) Transaction data",
+        "C) User information",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a sidechain?",
+      "options": [
+        "A) A secondary blockchain that is attached to a main blockchain",
+        "B) A type of cryptocurrency",
+        "C) A method for block creation",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is a DAO (Decentralized Autonomous Organization)?",
+      "options": [
+        "A) A traditional company",
+        "B) An organization run by smart contracts on a blockchain",
+        "C) A type of cryptocurrency",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    }
+  ],
+  "Enterprise Software Development": [
+    {
+      "question": "What is enterprise software primarily designed for?",
+      "options": [
+        "A) Individual users",
+        "B) Large organizations and businesses",
+        "C) Mobile applications",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does ERP stand for?",
+      "options": [
+        "A) Enterprise Resource Planning",
+        "B) Enterprise Report Process",
+        "C) Extended Resource Program",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a common feature of enterprise software?",
+      "options": [
+        "A) Customizability",
+        "B) User-friendliness",
+        "C) Scalability",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is CRM in the context of enterprise software?",
+      "options": [
+        "A) Customer Resource Management",
+        "B) Client Relationship Management",
+        "C) Customer Relationship Management",
+        "D) None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What is the purpose of business intelligence (BI) tools?",
+      "options": [
+        "A) To track employee performance",
+        "B) To analyze business data and provide insights",
+        "C) To manage inventory",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What type of architecture is often used in enterprise software?",
+      "options": [
+        "A) Monolithic architecture",
+        "B) Microservices architecture",
+        "C) Layered architecture",
+        "D) Both B and C"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "Which of the following is a benefit of cloud-based enterprise software?",
+      "options": [
+        "A) High maintenance costs",
+        "B) Accessibility from anywhere",
+        "C) Limited scalability",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'scalability' refer to in enterprise software?",
+      "options": [
+        "A) Ability to manage small user bases",
+        "B) Ability to grow and handle increased loads",
+        "C) Inability to expand",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is an API?",
+      "options": [
+        "A) Application Program Interface",
+        "B) Advanced Programming Interface",
+        "C) Automated Program Interaction",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is NOT a type of enterprise software?",
+      "options": [
+        "A) HRM (Human Resource Management)",
+        "B) SCM (Supply Chain Management)",
+        "C) Word processing software",
+        "D) ERP (Enterprise Resource Planning)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What is the role of middleware in enterprise software?",
+      "options": [
+        "A) To provide a user interface",
+        "B) To connect different software applications",
+        "C) To manage databases",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a popular enterprise software solution?",
+      "options": [
+        "A) Microsoft Office",
+        "B) Salesforce",
+        "C) Adobe Photoshop",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary purpose of a database in enterprise software?",
+      "options": [
+        "A) To store data securely",
+        "B) To perform calculations",
+        "C) To provide user interfaces",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following describes SaaS?",
+      "options": [
+        "A) Software as a Service",
+        "B) System as a Service",
+        "C) Security as a Service",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the function of version control systems in software development?",
+      "options": [
+        "A) To manage software releases",
+        "B) To track changes in code",
+        "C) To enhance performance",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is Agile methodology?",
+      "options": [
+        "A) A waterfall model of software development",
+        "B) An iterative approach to software development",
+        "C) A method for managing databases",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary focus of DevOps?",
+      "options": [
+        "A) User interface design",
+        "B) Collaboration between development and operations teams",
+        "C) Security measures",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a major challenge in enterprise software development?",
+      "options": [
+        "A) Rapid technological changes",
+        "B) User training",
+        "C) Data integration",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What does the term 'data integration' refer to?",
+      "options": [
+        "A) Storing data in multiple places",
+        "B) Combining data from different sources into a unified view",
+        "C) Deleting unnecessary data",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the purpose of user acceptance testing (UAT)?",
+      "options": [
+        "A) To test software performance",
+        "B) To validate software functionality with end users",
+        "C) To measure code quality",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does 'business process automation' refer to?",
+      "options": [
+        "A) Manual processing of tasks",
+        "B) Use of technology to automate repetitive tasks",
+        "C) Increase in workforce",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a key aspect of enterprise architecture?",
+      "options": [
+        "A) Technology management",
+        "B) Aligning IT strategy with business goals",
+        "C) User interface design",
+        "D) Both A and B"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is an example of a reporting tool in enterprise software?",
+      "options": [
+        "A) Microsoft Excel",
+        "B) Tableau",
+        "C) Both A and B",
+        "D) None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What is the main objective of performance tuning in enterprise applications?",
+      "options": [
+        "A) To make the software visually appealing",
+        "B) To improve the application's speed and efficiency",
+        "C) To enhance security measures",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the role of a system analyst in enterprise software development?",
+      "options": [
+        "A) To design user interfaces",
+        "B) To gather requirements and analyze system needs",
+        "C) To code software applications",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    }
+  ],
+  "AI and Cognitive Systems": [
+    {
+      "question": "What does AI stand for?",
+      "options": [
+        "A) Advanced Intelligence",
+        "B) Artificial Intelligence",
+        "C) Automated Information",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the primary goal of AI?",
+      "options": [
+        "A) To mimic human intelligence",
+        "B) To replace human workers",
+        "C) To enhance physical strength",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is machine learning?",
+      "options": [
+        "A) A subset of AI that enables systems to learn from data",
+        "B) A form of human training",
+        "C) A type of hardware",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a common application of AI?",
+      "options": [
+        "A) Image recognition",
+        "B) Natural language processing",
+        "C) Robotics",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is a neural network?",
+      "options": [
+        "A) A type of database",
+        "B) A series of algorithms that mimic the operations of a human brain",
+        "C) A hardware component",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is supervised learning?",
+      "options": [
+        "A) Learning without labeled data",
+        "B) Learning using labeled data to make predictions",
+        "C) Learning by trial and error",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is an example of unsupervised learning?",
+      "options": [
+        "A) Clustering",
+        "B) Classification",
+        "C) Regression",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is natural language processing (NLP)?",
+      "options": [
+        "A) The study of programming languages",
+        "B) The ability of a computer to understand and process human language",
+        "C) A type of machine learning",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which algorithm is commonly used for classification tasks?",
+      "options": [
+        "A) K-means",
+        "B) Decision trees",
+        "C) Linear regression",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'overfitting' mean in machine learning?",
+      "options": [
+        "A) A model that performs well on training data but poorly on unseen data",
+        "B) A model that generalizes well",
+        "C) A type of data processing",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is NOT a type of AI?",
+      "options": [
+        "A) Narrow AI",
+        "B) General AI",
+        "C) Super AI",
+        "D) Virtual AI"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is deep learning?",
+      "options": [
+        "A) A complex form of machine learning that uses neural networks",
+        "B) A type of human learning",
+        "C) A basic level of AI",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is reinforcement learning?",
+      "options": [
+        "A) Learning from labeled data",
+        "B) Learning through rewards and penalties",
+        "C) Learning without data",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is the Turing Test used for?",
+      "options": [
+        "A) To measure the performance of computers",
+        "B) To evaluate a machine's ability to exhibit intelligent behavior",
+        "C) To test software functionality",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "Which of the following is a popular framework for machine learning?",
+      "options": [
+        "A) TensorFlow",
+        "B) React",
+        "C) Angular",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is an AI chatbot?",
+      "options": [
+        "A) A physical robot",
+        "B) A software application that simulates conversation with users",
+        "C) A type of hardware",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What does the term 'bias' mean in AI?",
+      "options": [
+        "A) A preference or inclination that affects the results of AI models",
+        "B) A type of algorithm",
+        "C) A method of data storage",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is a key challenge in AI development?",
+      "options": [
+        "A) Data quality",
+        "B) Algorithm complexity",
+        "C) Ethical considerations",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "What is the purpose of feature engineering in machine learning?",
+      "options": [
+        "A) To create new input variables from existing data",
+        "B) To test model performance",
+        "C) To visualize data",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "Which of the following is an example of AI in healthcare?",
+      "options": [
+        "A) Predictive analytics for patient outcomes",
+        "B) Physical therapy robots",
+        "C) Both A and B",
+        "D) None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "What is the main difference between AI and machine learning?",
+      "options": [
+        "A) AI is a subset of machine learning",
+        "B) Machine learning is a subset of AI",
+        "C) They are the same",
+        "D) None of the above"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "What is an example of a reinforcement learning algorithm?",
+      "options": [
+        "A) Q-learning",
+        "B) K-means clustering",
+        "C) Linear regression",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is the role of big data in AI?",
+      "options": [
+        "A) To provide large amounts of data for training AI models",
+        "B) To replace traditional databases",
+        "C) To increase software costs",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is transfer learning in machine learning?",
+      "options": [
+        "A) Using knowledge gained from one task to improve learning in a different but related task",
+        "B) Learning without data",
+        "C) A type of neural network",
+        "D) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "What is an ethical concern associated with AI?",
+      "options": [
+        "A) Data privacy",
+        "B) Job displacement",
+        "C) Algorithmic bias",
+        "D) All of the above"
+      ],
+      "answer": "D"
+    }
+  ],
+  "qData Analytics": [
+    {
+      "question": "What is data analytics?",
+      "options": [
+        "a) The process of cleaning data",
+        "b) The process of analyzing data to gain insights",
+        "c) The process of storing data",
+        "d) The process of deleting data"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a type of data analytics?",
+      "options": [
+        "a) Descriptive analytics",
+        "b) Predictive analytics",
+        "c) Prescriptive analytics",
+        "d) All of the above"
+      ],
+      "answer": "d"
+    },
+    {
+      "question": "What does the term 'big data' refer to?",
+      "options": [
+        "a) Small datasets",
+        "b) Large volumes of structured and unstructured data",
+        "c) Data stored on local servers",
+        "d) Data that is easy to analyze"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which tool is commonly used for data visualization?",
+      "options": [
+        "a) Excel",
+        "b) Tableau",
+        "c) Notepad",
+        "d) Word"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is the purpose of data mining?",
+      "options": [
+        "a) To delete unwanted data",
+        "b) To extract useful information from large datasets",
+        "c) To store data securely",
+        "d) To create backups"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a popular programming language for data analysis?",
+      "options": [
+        "a) HTML",
+        "b) Python",
+        "c) CSS",
+        "d) JavaScript"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is the primary goal of predictive analytics?",
+      "options": [
+        "a) To analyze past data",
+        "b) To predict future outcomes",
+        "c) To visualize data",
+        "d) To clean data"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following techniques is used for data preprocessing?",
+      "options": [
+        "a) Data cleaning",
+        "b) Data storage",
+        "c) Data archiving",
+        "d) Data analysis"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is a data warehouse?",
+      "options": [
+        "a) A place to store unstructured data",
+        "b) A central repository for integrated data",
+        "c) A local server",
+        "d) A type of database"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which statistical measure is used to understand data dispersion?",
+      "options": [
+        "a) Mean",
+        "b) Median",
+        "c) Standard deviation",
+        "d) Mode"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "What is the purpose of A/B testing in data analytics?",
+      "options": [
+        "a) To compare two versions of a variable",
+        "b) To analyze historical data",
+        "c) To clean data",
+        "d) To store data"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a feature of machine learning?",
+      "options": [
+        "a) Manual programming",
+        "b) Automated learning from data",
+        "c) Data storage",
+        "d) Data visualization"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What does ETL stand for in data analytics?",
+      "options": [
+        "a) Extract, Transform, Load",
+        "b) Extract, Translate, Load",
+        "c) Extract, Transmit, Load",
+        "d) Execute, Transform, Load"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a common data analysis method?",
+      "options": [
+        "a) Regression analysis",
+        "b) Data storage",
+        "c) Data backup",
+        "d) Data cleaning"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is the main benefit of using dashboards in data analytics?",
+      "options": [
+        "a) Increased costs",
+        "b) Real-time data visualization",
+        "c) Manual data entry",
+        "d) Limited accessibility"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a data analysis tool?",
+      "options": [
+        "a) Microsoft Paint",
+        "b) Google Analytics",
+        "c) Microsoft Word",
+        "d) Notepad"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is the purpose of normalization in data analysis?",
+      "options": [
+        "a) To reduce data redundancy",
+        "b) To delete data",
+        "c) To enhance security",
+        "d) To visualize data"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What type of data is typically used for qualitative analysis?",
+      "options": [
+        "a) Numeric data",
+        "b) Categorical data",
+        "c) Time series data",
+        "d) Continuous data"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a commonly used library for data analysis in Python?",
+      "options": [
+        "a) NumPy",
+        "b) Pandas",
+        "c) Matplotlib",
+        "d) Scikit-learn"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What does the term 'data integrity' refer to?",
+      "options": [
+        "a) Accuracy and consistency of data",
+        "b) Security of data",
+        "c) Storage capacity",
+        "d) Data backup"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is sentiment analysis?",
+      "options": [
+        "a) Analyzing numerical data",
+        "b) Analyzing emotions from text data",
+        "c) Analyzing structured data",
+        "d) Analyzing sales data"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is an example of structured data?",
+      "options": [
+        "a) Images",
+        "b) Text documents",
+        "c) Database tables",
+        "d) Videos"
+      ],
+      "answer": "c"
+    },
+    {
+      "question": "What does the term 'correlation' indicate in data analysis?",
+      "options": [
+        "a) The relationship between two variables",
+        "b) The mean of a dataset",
+        "c) The total count of data points",
+        "d) The highest value in a dataset"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a technique used for clustering?",
+      "options": [
+        "a) K-means clustering",
+        "b) Linear regression",
+        "c) Decision trees",
+        "d) Time series analysis"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is the purpose of hypothesis testing in data analytics?",
+      "options": [
+        "a) To validate assumptions about data",
+        "b) To visualize data",
+        "c) To store data",
+        "d) To clean data"
+      ],
+      "answer": "a"
+    }
+  ],
+  "IT Infrastructure Management": [
+    {
+      "question": "What does IT infrastructure refer to?",
+      "options": [
+        "a) Software applications only",
+        "b) Hardware and software components for IT services",
+        "c) Only network devices",
+        "d) Only storage devices"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a key component of IT infrastructure?",
+      "options": [
+        "a) Human resources",
+        "b) Hardware",
+        "c) Marketing",
+        "d) Customer support"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is virtualization in IT infrastructure?",
+      "options": [
+        "a) The use of multiple servers for a single application",
+        "b) The creation of virtual versions of physical resources",
+        "c) The backup of data",
+        "d) The deletion of unused applications"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is a network protocol?",
+      "options": [
+        "a) A set of rules for data communication",
+        "b) A type of hardware",
+        "c) A software application",
+        "d) A storage solution"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a common cloud infrastructure model?",
+      "options": [
+        "a) Software as a Service (SaaS)",
+        "b) Infrastructure as a Service (IaaS)",
+        "c) Platform as a Service (PaaS)",
+        "d) None of the above"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What does the acronym LAN stand for?",
+      "options": [
+        "a) Local Area Network",
+        "b) Large Area Network",
+        "c) Long Area Network",
+        "d) Light Area Network"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is the primary purpose of a firewall in IT infrastructure?",
+      "options": [
+        "a) To enhance system speed",
+        "b) To protect networks from unauthorized access",
+        "c) To manage data storage",
+        "d) To install applications"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is disaster recovery in IT infrastructure?",
+      "options": [
+        "a) A plan to recover from data loss",
+        "b) A method of improving system performance",
+        "c) A type of network protocol",
+        "d) A method for data storage"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a popular operating system for servers?",
+      "options": [
+        "a) Windows 10",
+        "b) Linux",
+        "c) macOS",
+        "d) Android"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is cloud computing?",
+      "options": [
+        "a) Storing data on local servers",
+        "b) Delivering computing services over the internet",
+        "c) Using only hardware",
+        "d) Creating software applications"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "Which of the following is a type of data center?",
+      "options": [
+        "a) Colocation center",
+        "b) Local center",
+        "c) Virtual center",
+        "d) Edge center"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is the main function of an operating system?",
+      "options": [
+        "a) To manage hardware and software resources",
+        "b) To create applications",
+        "c) To store data",
+        "d) To analyze data"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is used for monitoring IT infrastructure?",
+      "options": [
+        "a) Network performance monitoring tools",
+        "b) Word processors",
+        "c) Spreadsheet software",
+        "d) Presentation software"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is ITIL?",
+      "options": [
+        "a) Information Technology Infrastructure Library",
+        "b) Internet Technology Integration List",
+        "c) Information Technology Innovation League",
+        "d) Internet Technology Infrastructure Library"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What does the acronym VPN stand for?",
+      "options": [
+        "a) Virtual Private Network",
+        "b) Very Personal Network",
+        "c) Virtual Public Network",
+        "d) Variable Private Network"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a key benefit of cloud computing?",
+      "options": [
+        "a) Increased hardware costs",
+        "b) Scalability",
+        "c) Limited access to resources",
+        "d) Manual updates"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is a key benefit of using a Content Delivery Network (CDN)?",
+      "options": [
+        "a) Improved website speed",
+        "b) Increased data storage",
+        "c) Limited access",
+        "d) Manual backups"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What does the term 'load balancing' refer to in IT infrastructure?",
+      "options": [
+        "a) Distributing workloads across multiple resources",
+        "b) Increasing storage capacity",
+        "c) Decreasing system performance",
+        "d) Creating backups"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a component of IT governance?",
+      "options": [
+        "a) Risk management",
+        "b) Marketing strategy",
+        "c) Employee training",
+        "d) Sales strategy"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is the purpose of a database management system (DBMS)?",
+      "options": [
+        "a) To manage data storage",
+        "b) To create applications",
+        "c) To analyze data",
+        "d) To design websites"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is a common database model?",
+      "options": [
+        "a) Hierarchical model",
+        "b) Relational model",
+        "c) Object-oriented model",
+        "d) All of the above"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What is a significant risk in IT infrastructure?",
+      "options": [
+        "a) Data breaches",
+        "b) Increased performance",
+        "c) Enhanced user experience",
+        "d) Cost savings"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "Which of the following is an example of a network device?",
+      "options": [
+        "a) Router",
+        "b) Monitor",
+        "c) Keyboard",
+        "d) Printer"
+      ],
+      "answer": "a"
+    },
+    {
+      "question": "What is the role of an IT service manager?",
+      "options": [
+        "a) To manage IT staff",
+        "b) To ensure IT services meet business needs",
+        "c) To create software applications",
+        "d) To manage customer relationships"
+      ],
+      "answer": "b"
+    },
+    {
+      "question": "What does the term 'system integration' refer to?",
+      "options": [
+        "a) Combining different IT systems to work together",
+        "b) Creating backup systems",
+        "c) Increasing hardware resources",
+        "d) None of the above"
+      ],
+      "answer": "a"
+    }
+  ]
+}
+
+   
+
+
+
+
+
+    
