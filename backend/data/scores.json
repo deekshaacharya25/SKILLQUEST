@@ -1,0 +1,20 @@
+[
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Netflix",
+    "skill": "Streaming Technologies",
+    "score": 20
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Netflix",
+    "skill": "overallScore",
+    "score": 16
+  },
+  {
+    "email": "deekshapacharya25@gmail.com",
+    "company": "Netflix",
+    "skill": "Recommendation Algorithms",
+    "score": 8
+  }
+]
