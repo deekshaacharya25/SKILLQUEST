@@ -7,6 +7,8 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     font-weight: bold;
+    font-weight: 20px;
+    
 }
 #backToSearchButton{
     display:none;
@@ -18,7 +20,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #9c9dab;
+    min-height: 100vh;
+    font-size: 20px;
+    position: relative;
+    place-content: start;
 }
 
 header {
@@ -36,12 +42,14 @@ header {
 main {
     padding: 2rem;
     width: 100%;
-    max-width: 800px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-top: 2rem;
+    margin-top: 2rem;
     border-radius: 8px;
+    padding-bottom: 80px;
     position: sticky;
+    place-content: left;
 }
 
 #search {
@@ -81,11 +89,7 @@ button:hover {
     background-color: #335e80;
 }
 
-/* Existing styles */
 
-/* ... (keep your existing CSS) ... */
-
-/* Styles for the forgot password page */
 #forgot-password .container {
     background-color: #ffffff;
     border-radius: 8px;
@@ -193,6 +197,7 @@ button:hover {
 
 .eligibility-message{
    color: #335e80;
+   padding-bottom: 10px;
 }
 .skills-button {
     display: inline-block;
@@ -218,14 +223,20 @@ h4{
 #questions-section {
     background-color: transparent;
     color: white;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 70px;
 }
 body.quiz-mode {
     background: #000;
+    font-size: 1.25rem;
+  
 }
 
 main.quiz-mode {
     background: transparent;
     box-shadow: none;
+    justify-self: left;
 }
 body.quiz-mode {
     background-color: #f4f4f4;
@@ -286,10 +297,12 @@ position: relative;
 
 #questions-section label {
     display: block;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.5rem;
     align-self: start;
 }
-
+select{
+    font-size:16px;
+}
 /* #questionsContainer {
     padding: 20px;
     overflow-y: auto;
@@ -297,21 +310,36 @@ position: relative;
     background-color: #000;
 } */
 #questionsContainer {
-
+    margin-top: 90px;;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px;
     background-color: #000;
     z-index: 1000;
+    text-align: left; 
+    margin-left: 0; /* Ensure no left margin */
+   
+  
 }
-
+.question{
+    margin-left:0 ;
+    text-align: left;
+    justify-self: start;
+}
+#questionsContainer p {
+    margin-left: 0;
+    text-align: left;
+}
 #timer {
     font-size: 1.2em;
     font-weight: bold;
-    margin-bottom: 20px;
-    margin-top:20px;
+    /* margin-bottom: 20px;
+    margin-top:20px; */
     position: absolute;
+    padding: 5px 10px;
+    z-index: 1001;
+
 }
 
 #questions-section button {
@@ -320,9 +348,9 @@ position: relative;
     border: none;
     padding: 10px 20px;
     margin-top: -10px;
+    width:20%;
     cursor: pointer;
     border-radius: 5px;
-    width: 100%;
         height: 45px;
         font-size: 15px;
         margin-top: 20px;
@@ -336,6 +364,7 @@ position: relative;
 .overall-score-container {
     margin-bottom: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .skill-buttons-container {
@@ -360,43 +389,7 @@ position: relative;
 .question p{
     margin-bottom: 1rem;
 }
-/* Media Queries for Responsiveness */
-/*
-@media (max-width: 768px) {
-    main {
-        padding: 1rem;
-        margin-top: 1rem;
-    }
 
-    input[type="text"] {
-        width: calc(100% - 2rem);
-    }
-
-    button, .skills-button {
-        width: 100%;
-        margin: 0.5rem 0;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 0.5rem;
-    }
-
-    main {
-        padding: 1rem;
-    }
-
-    input[type="text"] {
-        width: calc(100% - 2rem);
-    }
-
-    button, .skills-button {
-        width: 100%;
-        margin: 0.5rem 0;
-    }
-}
-*/
 ::-webkit-scrollbar{
     display: none;
 }
@@ -410,7 +403,7 @@ body {
     min-height: 460px;
     height: 100vh;
     overflow: scroll;
-    background: url("public\images\backgroundimage.jpg");
+    
     background-size: cover;
     backdrop-filter: blur(7px);
     display: grid;
@@ -474,7 +467,7 @@ img {
 }
 
 a {
-    font-size: small;
+    font-size: 16px;
     color: #1756a2;
     cursor: pointer;
 }
@@ -487,6 +480,7 @@ input {
     color: #000;
     font-weight: bold;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 input:focus {
@@ -510,6 +504,7 @@ button {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 0 0 30px 0;
     position: sticky;
+    font-size: 16px;
 }
 button:hover{
     background-color: #3b5694;
@@ -609,27 +604,40 @@ button:active {
     width: 15px;
     height: 15px;
 }
-.button-container {
+/* .button-container {
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin: 20px auto;
     position: absolute;
+} */
+
+.button-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* optional: adds a subtle shadow */
+    z-index: 1000; /* ensures the buttons stay on top of other content */
+    display: flex;
+    column-gap:200px;/* space between buttons */
+    justify-content: space-evenly;
 }
 .button-container button {
-    width: 40%;
+    width: 30%;
     height: 30px;
     font-size: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin:0 50px;
 }
 
 .button-container .next-button, .button-container .submit-button {
     width: 100%;
     height: 30px;
-    font-size: 15px;
+  
     margin-top: 10px;
     background-color: #12324b;
     color: white;
@@ -646,7 +654,7 @@ button:active {
 @media (min-width: 1024px) {
     /* Adjust the styles for laptop devices */
     .button-container {
-        width: 30%;
+        width: 100%;
     }
     .button-container button {
         width: 45%;
@@ -666,7 +674,7 @@ button:active {
 }
 
 /* For mobile devices with a screen width of 768px or less */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .button-container #nextButton, .button-container #submitButton {
         width: 100%;
         height: 50px;
@@ -674,14 +682,40 @@ button:active {
         margin-top: 15px;
         padding-bottom: 5px;
     }
-}
+} */
+@media (max-width: 768px) {
+    .button-container {
+        position: fixed; /* Change to static positioning on mobile */
+        padding: 10px;
+        background-color: transparent; /* Optional: remove background */
+        box-shadow: none; /* Remove shadow */
+        
+        bottom: 0;
+        left: 0;
+        z-index: 1000; 
+    }
 
+    .button-container button {
+        flex: 1; /* Make buttons take equal width */
+        align-items: center;
+
+    }
+
+    /* Create a spacer div to push content up */
+    .button-spacer {
+        height: 70px; /* Adjust based on your button container height */
+    }
+
+    /* Ensure the main content area has enough bottom padding */
+    main {
+        padding-bottom: 80px;
+    }
+}
 /* For tablets with a screen width of 1024px or less */
 @media (max-width: 1024px) {
     .button-container #nextButton, .button-container #submitButton {
         width: 100%;
         height: 45px;
-        font-size: 15px;
         margin-top: 15px;
         padding-bottom: 5px;
     }
@@ -751,6 +785,7 @@ button:active {
     }
     .button-container{
         flex-direction: column;
+        position:sticky;
     }
     #search h2 {
         font-size: 1rem;
@@ -835,7 +870,7 @@ button:active {
         padding-top: 100px;
     }
     #questionsContainer {
-        position: fixed;
+        position: sticky;
         top: 20px;
         left: 0;
         width: 100%;
@@ -846,11 +881,16 @@ button:active {
     }
 
     #timer {
-        font-size: 1rem;
+        font-size: 1.2em;
         font-weight: bold;
         margin-bottom: 20px;
-        margin-top:20px;
+        margin-top: 20px;
         position: absolute;
+        display: none; /* Hide by default */
+    }
+    
+    #questions-section #timer {
+        display: block; /* Show only within questions section */
     }
     .overall-score-container {
         margin-bottom: 10px;
@@ -864,10 +904,23 @@ button:active {
 }
 #questions-section label {
     font-size: 0.5rem;
-    margin-bottom: 0.5rem; 
 }
 }
+@media (max-width: 768px) {
+    .button-container {
+        padding: 5px;
+    }
 
+    .button-container button {
+        flex: 1;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    #questions-section {
+        padding-bottom: 60px; /* Adjust if your mobile buttons are smaller */
+    }
+}
 /* For mobile devices with a screen width of 768px or less */
 @media (max-width: 768px) {
     main {
@@ -897,7 +950,7 @@ button:active {
     }
    
      #questionsContainer {
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         width: 100%;
@@ -1051,5 +1104,4 @@ button:active {
         font-size: 1rem;
         margin-bottom: 1rem; 
     }
-
-  
+}
