@@ -158,34 +158,27 @@ app.get('/startQuiz', (req, res) => {
 });
 
 let scores = {};
-// fs.readFile('scores.json', (err, data) => {
-//     if (err) {
-//         console.error(err);
-//     } else {
-//         scores = JSON.parse(data);
-//     }
-// });/
-fs.readFile(scoresFilePath, 'utf8', (err, data) => {
+fs.readFile('scores.json', (err, data) => {
     if (err) {
-        console.error("Error reading scores.json:", err);
+        console.error(err);
     } else {
-        try {
-            scores = JSON.parse(data);
-            console.log("Scores loaded:", scores); // Optional: Log the loaded scores
-        } catch (parseError) {
-            console.error("Error parsing scores.json:", parseError);
-        }
+        scores = JSON.parse(data);
     }
 });
 
+
+
+
 app.post('/api/save-score', (req, res) => {
     const { email, company, skill, score } = req.body;
-    
+
+    // Check for missing required fields
     if (!email || !company || !skill || score === undefined) {
         return res.status(400).json({ message: 'Missing required fields' });
     }
 
-    fs.readFile(scoresFilePath, (err, data) => {
+    // Read the scores file
+    fs.readFile(scoresFilePath, 'utf8', (err, data) => {
         if (err && err.code !== 'ENOENT') {
             console.error('Error reading scores file:', err);
             return res.status(500).json({ message: 'Error saving score' });
@@ -204,9 +197,9 @@ app.post('/api/save-score', (req, res) => {
         // Find or create the score object
         let scoreObj = scores.find(s => s.email === email && s.company === company && s.skill === skill);
         if (scoreObj) {
-            scoreObj.score = parseFloat(score);
+            scoreObj.score = parseFloat(score); // Update existing score
         } else {
-            scores.push({ email, company, skill, score: parseFloat(score) });
+            scores.push({ email, company, skill, score: parseFloat(score) }); // Add new score
         }
 
         // Calculate overall score
@@ -217,16 +210,18 @@ app.post('/api/save-score', (req, res) => {
         // Update or add overall score
         let overallScoreObj = scores.find(s => s.email === email && s.company === company && s.skill === 'overallScore');
         if (overallScoreObj) {
-            overallScoreObj.score = overallScore;
+            overallScoreObj.score = overallScore; // Update existing overall score
         } else {
-            scores.push({ email, company, skill: 'overallScore', score: overallScore });
+            scores.push({ email, company, skill: 'overallScore', score: overallScore }); // Add new overall score
         }
 
+        // Write the updated scores back to the file
         fs.writeFile(scoresFilePath, JSON.stringify(scores, null, 2), (writeErr) => {
             if (writeErr) {
                 console.error('Error writing scores file:', writeErr);
                 return res.status(500).json({ message: 'Error saving score' });
             }
+            // Respond with success message and scores
             res.json({ 
                 message: 'Score saved successfully', 
                 overallScore, 
@@ -275,8 +270,4 @@ app.get('/api/overall-score', (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
-
-
- 
-
 
